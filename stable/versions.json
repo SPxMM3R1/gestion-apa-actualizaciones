@@ -1,0 +1,16 @@
+{
+    "schemaVersion":  1,
+    "generatedAt":  "2026-08-04T20:40:47.7398805Z",
+    "versions":  [
+                     {
+                         "version":  "0.3.20",
+                         "tag":  "v0.3.20",
+                         "publishedAt":  "2026-08-04T16:03:15Z",
+                         "sourceCommit":  "74e49100fe363096e512a1f390167504b459e8ca",
+                         "notes":  "- La verificación OCR extrae la fecha de validación del informe PDF y la compara con la fecha informada en la estadística.\\n- La comparación de fecha se muestra dentro de la misma ventana de verificación, con estados de coincidencia, discordancia, revisión o dato ausente.",
+                         "sha256":  "14209f7e93f9650ed31ff05d1ec18a9faabbd7553fc63285ccfbee55207337d9",
+                         "artifact":  "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.20/Gestion.APA.-.Tiempos.de.respuesta_0.3.20_x64-setup.exe",
+                         "latestJson":  "https://raw.githubusercontent.com/SPxMM3R1/gestion-apa-actualizaciones/channels/stable/latest.json"
+                     }
+                 ]
+}
