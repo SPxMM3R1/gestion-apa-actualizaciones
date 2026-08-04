@@ -1,0 +1,15 @@
+{
+  "version": "0.3.20",
+  "notes": "- La verificación OCR extrae la fecha de validación del informe PDF y la compara con la fecha informada en la estadística.\n- La comparación de fecha se muestra dentro de la misma ventana de verificación, con estados de coincidencia, discordancia, revisión o dato ausente.",
+  "pub_date": "2026-08-04T16:03:18.753Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG1DUzl1bHBWTHNiNGhTTHhaY3NyVHhmYTQyS3ZlMThCWEFFT2NjYXhHckxEY0Q0NWIySFhBbzJUQ2hGVGZJL2FlVGd5RFpBbzZnOVZnOHA5bkxPRXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODU5MzkzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIwX3g2NC1zZXR1cC5leGUKS0ZpMjliRGRsek8zV0pLaWRzUjJXT0xaQVplMzNjWlhZajRsYnpiRitaZW4wZmtiNUNKRXd6TmRxZldLWFJPY1FBQ0lUVk84c1F2aVBHaGpUNW85QUE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/501539368"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG1DUzl1bHBWTHNiNGhTTHhaY3NyVHhmYTQyS3ZlMThCWEFFT2NjYXhHckxEY0Q0NWIySFhBbzJUQ2hGVGZJL2FlVGd5RFpBbzZnOVZnOHA5bkxPRXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODU5MzkzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIwX3g2NC1zZXR1cC5leGUKS0ZpMjliRGRsek8zV0pLaWRzUjJXT0xaQVplMzNjWlhZajRsYnpiRitaZW4wZmtiNUNKRXd6TmRxZldLWFJPY1FBQ0lUVk84c1F2aVBHaGpUNW85QUE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/501539368"
+    }
+  }
+}
