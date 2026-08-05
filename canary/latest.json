@@ -1,15 +1,15 @@
 {
-  "version": "0.3.21",
-  "notes": "### Nuevas funciones\n\n- Se incorporan canales de actualizacion **Stable** y **Canary**.\n- Stable queda seleccionado por defecto para el uso habitual.\n- Se agrega un selector para probar versiones Canary de forma controlada.\n- Se incorpora recuperacion de la ultima version Stable instalada.\n\n### Mejoras\n\n- Las actualizaciones verifican version, firma, hash e integridad del instalador.\n- Se conserva la configuracion local, incluidas las rutas del Excel y de los informes PDF.\n- Se mejora la gestion de errores durante actualizaciones y restauraciones.\n\n### Importante\n\n- Esta version no modifica los motores OCR ni la logica de procesamiento de biopsias.",
-  "pub_date": "2026-08-05T04:55:27.428Z",
+  "version": "0.3.22",
+  "notes": "### Correcciones\n\n- Se muestran los errores reales devueltos por el puente nativo al activar Canary, en lugar de un mensaje generico.\n- Se normalizan los errores del actualizador en un unico punto para facilitar el diagnostico de recuperacion, cambio de canal e instalacion.\n\n### Importante\n\n- No se modifican los motores OCR ni la logica clinica de procesamiento.",
+  "pub_date": "2026-08-05T13:23:03.829Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG9LWmRvaW5wbmlJcHh4M0pzQms3TVNFTExBZ2RxS3ZRZ1h2d2dNQkp3M2xSOU03SWNOYVM3S21MSnBMMWs4N1liV0RNazQyb1VFOGp5d3JaRnY4Z2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA1NzIyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIxX3g2NC1zZXR1cC5leGUKbnh4UldYN3VZZ3pUdmdPNXB0MTc2M1J3QkxiNlV3K1c5VzlBNU5LaWE4R0ZvTXpNejFGV3RZeHZZWEF3ZGhYdjVhMnhCdGRBK1lwVzI3TmUwVzhYQVE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/502188737"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5WKzhUZ29XdWUzYUN5WWU1TmFKY3NUQ1hielRqWng4blZzRFpLUDJoTGJIazN6NmJLUjgyOWQrUDlsKzJHZERrdFZmTjhsOHhBY0g1M1o2ajBHN2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTM2MTgwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIyX3g2NC1zZXR1cC5leGUKV0kzV0loWnFyVmRjREVCeFFZL0l2b0p4enR5R21tNDBsc1JINmYvQzVabDRCMVV5RSt1QUlmT0p5YWpyeWVxSDkvbXgzNGxObTJzWHFQblJEc2E0QVE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/502646647"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG9LWmRvaW5wbmlJcHh4M0pzQms3TVNFTExBZ2RxS3ZRZ1h2d2dNQkp3M2xSOU03SWNOYVM3S21MSnBMMWs4N1liV0RNazQyb1VFOGp5d3JaRnY4Z2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA1NzIyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIxX3g2NC1zZXR1cC5leGUKbnh4UldYN3VZZ3pUdmdPNXB0MTc2M1J3QkxiNlV3K1c5VzlBNU5LaWE4R0ZvTXpNejFGV3RZeHZZWEF3ZGhYdjVhMnhCdGRBK1lwVzI3TmUwVzhYQVE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/502188737"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5WKzhUZ29XdWUzYUN5WWU1TmFKY3NUQ1hielRqWng4blZzRFpLUDJoTGJIazN6NmJLUjgyOWQrUDlsKzJHZERrdFZmTjhsOHhBY0g1M1o2ajBHN2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTM2MTgwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIyX3g2NC1zZXR1cC5leGUKV0kzV0loWnFyVmRjREVCeFFZL0l2b0p4enR5R21tNDBsc1JINmYvQzVabDRCMVV5RSt1QUlmT0p5YWpyeWVxSDkvbXgzNGxObTJzWHFQblJEc2E0QVE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/502646647"
     }
   }
 }
