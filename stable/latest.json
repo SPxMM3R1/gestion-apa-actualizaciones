@@ -1,15 +1,15 @@
 {
-  "version": "0.3.22",
-  "notes": "### Correcciones\n\n- Se muestran los errores reales devueltos por el puente nativo al activar Canary, en lugar de un mensaje generico.\n- Se normalizan los errores del actualizador en un unico punto para facilitar el diagnostico de recuperacion, cambio de canal e instalacion.\n\n### Importante\n\n- No se modifican los motores OCR ni la logica clinica de procesamiento.",
-  "pub_date": "2026-08-05T13:23:03.829Z",
+  "version": "0.3.23",
+  "notes": "### Correcciones\n\n- Se corrige la lectura de la clave pública minisign usada por el recuperador Stable.\n- La preparación de la recuperación ya no falla con `Invalid encoding in minisign data`.\n\n### Importante\n\n- No se modifican los motores OCR ni la lógica clínica de procesamiento.",
+  "pub_date": "2026-08-05T14:44:59.787Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5WKzhUZ29XdWUzYUN5WWU1TmFKY3NUQ1hielRqWng4blZzRFpLUDJoTGJIazN6NmJLUjgyOWQrUDlsKzJHZERrdFZmTjhsOHhBY0g1M1o2ajBHN2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTM2MTgwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIyX3g2NC1zZXR1cC5leGUKV0kzV0loWnFyVmRjREVCeFFZL0l2b0p4enR5R21tNDBsc1JINmYvQzVabDRCMVV5RSt1QUlmT0p5YWpyeWVxSDkvbXgzNGxObTJzWHFQblJEc2E0QVE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.22/Gestion.APA.-.Tiempos.de.respuesta_0.3.22_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG8yRjhIcWtWR0RJTmJWTWFwdkkxYXJZSXh0M3ZRWlRZOE1XMU1nT3M5aWgyN3pXczJXZDVXdm1mMHBocWx1ME0wbFhkemNtYlplL2RRa0Z4bGtKU1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTQxMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIzX3g2NC1zZXR1cC5leGUKWkFpSVlrb00xNlpjQWUxOU9MSjI5bkhNZVRndjNFVFNuWDB4bld3bXloMGQvVjU0QkNveGtCNFFTWXY1bzZqTm9RWlZ5OWpOUzRBTHdXRjQ2d1FpREE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.23/Gestion.APA.-.Tiempos.de.respuesta_0.3.23_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5WKzhUZ29XdWUzYUN5WWU1TmFKY3NUQ1hielRqWng4blZzRFpLUDJoTGJIazN6NmJLUjgyOWQrUDlsKzJHZERrdFZmTjhsOHhBY0g1M1o2ajBHN2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTM2MTgwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIyX3g2NC1zZXR1cC5leGUKV0kzV0loWnFyVmRjREVCeFFZL0l2b0p4enR5R21tNDBsc1JINmYvQzVabDRCMVV5RSt1QUlmT0p5YWpyeWVxSDkvbXgzNGxObTJzWHFQblJEc2E0QVE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.22/Gestion.APA.-.Tiempos.de.respuesta_0.3.22_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG8yRjhIcWtWR0RJTmJWTWFwdkkxYXJZSXh0M3ZRWlRZOE1XMU1nT3M5aWgyN3pXczJXZDVXdm1mMHBocWx1ME0wbFhkemNtYlplL2RRa0Z4bGtKU1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTQxMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIzX3g2NC1zZXR1cC5leGUKWkFpSVlrb00xNlpjQWUxOU9MSjI5bkhNZVRndjNFVFNuWDB4bld3bXloMGQvVjU0QkNveGtCNFFTWXY1bzZqTm9RWlZ5OWpOUzRBTHdXRjQ2d1FpREE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.23/Gestion.APA.-.Tiempos.de.respuesta_0.3.23_x64-setup.exe"
     }
   }
 }
