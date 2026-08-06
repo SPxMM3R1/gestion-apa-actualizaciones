@@ -1,15 +1,15 @@
 {
-  "version": "0.3.23",
-  "notes": "### Correcciones\n\n- Se corrige la lectura de la clave pública minisign usada por el recuperador Stable.\n- La preparación de la recuperación ya no falla con `Invalid encoding in minisign data`.\n\n### Importante\n\n- No se modifican los motores OCR ni la lógica clínica de procesamiento.",
-  "pub_date": "2026-08-05T14:44:59.787Z",
+  "version": "0.3.24",
+  "notes": "### Correcciones\n\n- Se retiran de la interfaz los restos del motor OCR experimental que no formaba parte de la compilacion de escritorio.\n- La verificacion documental conserva el motor OCR local para folio y datos clinicos, sin extraer ni comparar la fecha de validacion del PDF.\n\n### Calidad\n\n- Calidad incorpora una comprobacion preventiva para impedir que recursos o referencias del motor experimental vuelvan a entrar en futuras compilaciones.\n\n### Actualizaciones\n\n- Se conserva la arquitectura de canales Stable y Canary, la recuperacion Stable y la validacion de firma, hash e integridad.",
+  "pub_date": "2026-08-06T12:30:05.628Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG8yRjhIcWtWR0RJTmJWTWFwdkkxYXJZSXh0M3ZRWlRZOE1XMU1nT3M5aWgyN3pXczJXZDVXdm1mMHBocWx1ME0wbFhkemNtYlplL2RRa0Z4bGtKU1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTQxMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIzX3g2NC1zZXR1cC5leGUKWkFpSVlrb00xNlpjQWUxOU9MSjI5bkhNZVRndjNFVFNuWDB4bld3bXloMGQvVjU0QkNveGtCNFFTWXY1bzZqTm9RWlZ5OWpOUzRBTHdXRjQ2d1FpREE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/502738957"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGp5TkNXVmdvekRSMjZXNHczMlJsM2xsbm5IRUMvZE5qS3I3Tk5MclJsekRIWG9XR2FKQTE4cTR2RDQ1emVJK0RGUlo3dko3VFgzUUpUdE8zRWpkUUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MDE5NDAyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI0X3g2NC1zZXR1cC5leGUKWUZrZVNRRm11bjRCdGlrWlE0SXdTdFJXVXNzVHBJelBiV1YwTEhScndlL2VRY3ZRYW1YUDh0K29aVDRJYXRCZWNjcmxWcjBZaXRkL1RNZlpUVWhuQ1E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/503914433"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG8yRjhIcWtWR0RJTmJWTWFwdkkxYXJZSXh0M3ZRWlRZOE1XMU1nT3M5aWgyN3pXczJXZDVXdm1mMHBocWx1ME0wbFhkemNtYlplL2RRa0Z4bGtKU1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTQxMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjIzX3g2NC1zZXR1cC5leGUKWkFpSVlrb00xNlpjQWUxOU9MSjI5bkhNZVRndjNFVFNuWDB4bld3bXloMGQvVjU0QkNveGtCNFFTWXY1bzZqTm9RWlZ5OWpOUzRBTHdXRjQ2d1FpREE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/502738957"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGp5TkNXVmdvekRSMjZXNHczMlJsM2xsbm5IRUMvZE5qS3I3Tk5MclJsekRIWG9XR2FKQTE4cTR2RDQ1emVJK0RGUlo3dko3VFgzUUpUdE8zRWpkUUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MDE5NDAyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI0X3g2NC1zZXR1cC5leGUKWUZrZVNRRm11bjRCdGlrWlE0SXdTdFJXVXNzVHBJelBiV1YwTEhScndlL2VRY3ZRYW1YUDh0K29aVDRJYXRCZWNjcmxWcjBZaXRkL1RNZlpUVWhuQ1E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/503914433"
     }
   }
 }
