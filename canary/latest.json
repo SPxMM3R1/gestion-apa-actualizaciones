@@ -1,15 +1,15 @@
 {
-  "version": "0.3.27",
-  "notes": "### Fuentes de datos\n\n- La interfaz ya no se bloquea al iniciar cuando el Excel vinculado o la carpeta de informes no estan disponibles.\n- Las rutas de red lentas tienen un limite de comprobacion y muestran un error recuperable.\n- Los vigilantes nativos solo se activan cuando la fuente esta disponible; las rutas ausentes usan sondeo liviano.\n\n### Calidad\n\n- Se agregan pruebas para proteger el arranque sin fuente y las operaciones de archivos con tiempo maximo.",
-  "pub_date": "2026-08-10T16:11:43.733Z",
+  "version": "0.3.28",
+  "notes": "### Identidad visual\n\n- El icono de Windows ahora usa una calavera geometrica plana, sin fondo cuadrado y con transparencia real en todos sus tamanos.",
+  "pub_date": "2026-08-10T20:33:16.179Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGlwQTIrZFJHVGtYbjgzKzFTeW8yeTFlSk9DOVM2bWFCY0c0enU2NC83Q1BIRWNOZXRGUm42TWppN1UvQXJoMlhIZ3BDMjZNanFYZlJvL2RJWGpQRXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mzc4MzAwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI3X3g2NC1zZXR1cC5leGUKbHkzcVdYQjArUDA2R3JvTUdFYkNvWmR4KzFEK2wwb0NJZ1hCZkhtbm41R2N0ZVdZSkVGZFNOeUtQT3d5T08wSitXV0pKRW1VRnczTmlvSnlaK0pJQ3c9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/508966999"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGczNUVBUXVoRHF2YlgyUWZQMUNWd0hYK0REQTZtbzNBSUZiS3hoQUVMbnJjZm5YUFgxYmFHdWNKWFNEV1YrTElFTmZoUkFtTlNGOFpYc1AzQ0dwNXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzkzOTkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI4X3g2NC1zZXR1cC5leGUKNXZidGh2NDUzTzFUakVuT1JoVy9EUzFmRmFKYjBjL1I1ZmRiazdKYXlxTkZBQkd2ZytWMkRCNHZYQ3VGbzFoVDRGNWFHZUdnTjIwMkgwTitFekVMRHc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/509230333"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGlwQTIrZFJHVGtYbjgzKzFTeW8yeTFlSk9DOVM2bWFCY0c0enU2NC83Q1BIRWNOZXRGUm42TWppN1UvQXJoMlhIZ3BDMjZNanFYZlJvL2RJWGpQRXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mzc4MzAwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI3X3g2NC1zZXR1cC5leGUKbHkzcVdYQjArUDA2R3JvTUdFYkNvWmR4KzFEK2wwb0NJZ1hCZkhtbm41R2N0ZVdZSkVGZFNOeUtQT3d5T08wSitXV0pKRW1VRnczTmlvSnlaK0pJQ3c9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/508966999"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGczNUVBUXVoRHF2YlgyUWZQMUNWd0hYK0REQTZtbzNBSUZiS3hoQUVMbnJjZm5YUFgxYmFHdWNKWFNEV1YrTElFTmZoUkFtTlNGOFpYc1AzQ0dwNXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzkzOTkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI4X3g2NC1zZXR1cC5leGUKNXZidGh2NDUzTzFUakVuT1JoVy9EUzFmRmFKYjBjL1I1ZmRiazdKYXlxTkZBQkd2ZytWMkRCNHZYQ3VGbzFoVDRGNWFHZUdnTjIwMkgwTitFekVMRHc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/509230333"
     }
   }
 }
