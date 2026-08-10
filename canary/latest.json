@@ -1,15 +1,15 @@
 {
-  "version": "0.3.26",
-  "notes": "### Actualizaciones\n\n- Canary puede volver a una Stable inferior usando el instalador Stable local preparado antes de activar el canal de pruebas.\n- La preparacion de la recuperacion Stable reintenta la descarga y evita respuestas comprimidas que podian provocar errores al leer el instalador.\n\n### Calidad\n\n- Se agregan pruebas para proteger el rollback local y separar esa ruta de la descarga normal del actualizador.",
-  "pub_date": "2026-08-10T15:06:20.192Z",
+  "version": "0.3.27",
+  "notes": "### Fuentes de datos\n\n- La interfaz ya no se bloquea al iniciar cuando el Excel vinculado o la carpeta de informes no estan disponibles.\n- Las rutas de red lentas tienen un limite de comprobacion y muestran un error recuperable.\n- Los vigilantes nativos solo se activan cuando la fuente esta disponible; las rutas ausentes usan sondeo liviano.\n\n### Calidad\n\n- Se agregan pruebas para proteger el arranque sin fuente y las operaciones de archivos con tiempo maximo.",
+  "pub_date": "2026-08-10T16:11:43.733Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGdFYTlzU3dBQ1o5S1VSdUxBVmg5NlNZSEtoSmdWNkxQUnZTTy9WQjBQTDFLcWo0MGlEcms1M1QvanZlTVQ5NlQrcFBJa1NLaFFSQnFIYVRNSVYrUUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mzc0Mzc3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI2X3g2NC1zZXR1cC5leGUKZ3lxV2dvLzNob0JIK0lxTkVEVTJ2NUtzemt1aVVsbFNTNjFLS1FzVFNzS1hLeUwvN0MrT3lvSklqVkNTZDRJSTRXWXlzT28wNGhLYWVublVFbXc1RGc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/508890085"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGlwQTIrZFJHVGtYbjgzKzFTeW8yeTFlSk9DOVM2bWFCY0c0enU2NC83Q1BIRWNOZXRGUm42TWppN1UvQXJoMlhIZ3BDMjZNanFYZlJvL2RJWGpQRXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mzc4MzAwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI3X3g2NC1zZXR1cC5leGUKbHkzcVdYQjArUDA2R3JvTUdFYkNvWmR4KzFEK2wwb0NJZ1hCZkhtbm41R2N0ZVdZSkVGZFNOeUtQT3d5T08wSitXV0pKRW1VRnczTmlvSnlaK0pJQ3c9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/508966999"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGdFYTlzU3dBQ1o5S1VSdUxBVmg5NlNZSEtoSmdWNkxQUnZTTy9WQjBQTDFLcWo0MGlEcms1M1QvanZlTVQ5NlQrcFBJa1NLaFFSQnFIYVRNSVYrUUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mzc0Mzc3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI2X3g2NC1zZXR1cC5leGUKZ3lxV2dvLzNob0JIK0lxTkVEVTJ2NUtzemt1aVVsbFNTNjFLS1FzVFNzS1hLeUwvN0MrT3lvSklqVkNTZDRJSTRXWXlzT28wNGhLYWVublVFbXc1RGc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/508890085"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGlwQTIrZFJHVGtYbjgzKzFTeW8yeTFlSk9DOVM2bWFCY0c0enU2NC83Q1BIRWNOZXRGUm42TWppN1UvQXJoMlhIZ3BDMjZNanFYZlJvL2RJWGpQRXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mzc4MzAwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI3X3g2NC1zZXR1cC5leGUKbHkzcVdYQjArUDA2R3JvTUdFYkNvWmR4KzFEK2wwb0NJZ1hCZkhtbm41R2N0ZVdZSkVGZFNOeUtQT3d5T08wSitXV0pKRW1VRnczTmlvSnlaK0pJQ3c9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/508966999"
     }
   }
 }
