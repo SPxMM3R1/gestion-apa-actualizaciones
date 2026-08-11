@@ -1,15 +1,15 @@
 {
-    "version":  "0.3.32",
-    "notes":  "### Correcciones\n\n- Descarga masiva permite buscar por RUT y reunir todos los informes asociados al paciente.\n\n- El buscador permanece centrado dentro de la barra superior al cambiar el tamaño de la ventana.\n- Se renombra la herramienta como Descarga masiva y se corrigen sus textos y botón de cierre.\n- La auditoría muestra `Dr. Solicitante` y `Fecha límite`, incluida la vista lateral del informe PDF.\n\n### Interfaz\n\n- Configuración organizada en pestañas de Vinculación y Actualizaciones, con las dos fuentes visibles en columnas.\n- El modo oscuro unifica la barra lateral y el área de trabajo, con superficies planas y bordes sutiles.\n- Los KPI conservan únicamente su indicador de color superior, sin separadores blancos laterales o inferiores.",
-    "pub_date":  "2026-08-11T20:43:45.8734191Z",
+    "version":  "0.3.33",
+    "notes":  "### Interfaz\n\n- Configuración organizada en pestañas de Vinculación y Actualizaciones, con las dos fuentes visibles en columnas.\n- El buscador permanece centrado respecto a los controles de la barra superior.\n- El modo oscuro unifica la barra lateral y el área de trabajo, con superficies planas y bordes sutiles.\n- Los KPI conservan únicamente su indicador de color superior, sin separadores blancos laterales o inferiores.",
+    "pub_date":  "2026-08-11T21:06:01.4860322Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGl5R3R6ZnRacVJXNG51TGJKc1RIWVV3bDVZUGg3V0RLOTZmbXc2MDB4V05rckJiRWJwSjN6VDZhMXUzdnRYVGNOSFZsZDBxd29ENVRIdWZwTXdvd1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDgwNzUyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMyX3g2NC1zZXR1cC5leGUKMkVTQjFLTXBESFRhVWlPeWltTVNxdVBWVVRRL2g0dC9TcDZZQVpDek5WaktUYjJvd3RWOHNIelZ0UUhPUWhVcy81OFNvZTMzYlN5d0RzZUQwTytCQlE9PQo=",
-                                             "url":  "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510620797"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHI4T3ZDM2Z3aVArTGY0Z3hRMCtzVXF0ZENpWEFha2Vnc0lNZkdrSVNkY1BUVFFyajB3amdMOVlNa2FQcW5XL3NHRDJkYjNucUdYWnlDTWtpRFBCb1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDgyMjc2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMzX3g2NC1zZXR1cC5leGUKRnRyRnBCR2F1UUtNZ2luNHdHL3VvN0IzdU8vUlpqTzdsSmM1T1pUMm5UaHJhSGtNNlkxWTlCR3RldDJWTzMzNk8yUmZ5RFB6em5VZFlSUFVQNWN1Qmc9PQo=",
+                                             "url":  "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510642385"
                                          },
                       "windows-x86_64-nsis":  {
-                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGl5R3R6ZnRacVJXNG51TGJKc1RIWVV3bDVZUGg3V0RLOTZmbXc2MDB4V05rckJiRWJwSjN6VDZhMXUzdnRYVGNOSFZsZDBxd29ENVRIdWZwTXdvd1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDgwNzUyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMyX3g2NC1zZXR1cC5leGUKMkVTQjFLTXBESFRhVWlPeWltTVNxdVBWVVRRL2g0dC9TcDZZQVpDek5WaktUYjJvd3RWOHNIelZ0UUhPUWhVcy81OFNvZTMzYlN5d0RzZUQwTytCQlE9PQo=",
-                                                  "url":  "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510620797"
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHI4T3ZDM2Z3aVArTGY0Z3hRMCtzVXF0ZENpWEFha2Vnc0lNZkdrSVNkY1BUVFFyajB3amdMOVlNa2FQcW5XL3NHRDJkYjNucUdYWnlDTWtpRFBCb1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDgyMjc2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMzX3g2NC1zZXR1cC5leGUKRnRyRnBCR2F1UUtNZ2luNHdHL3VvN0IzdU8vUlpqTzdsSmM1T1pUMm5UaHJhSGtNNlkxWTlCR3RldDJWTzMzNk8yUmZ5RFB6em5VZFlSUFVQNWN1Qmc9PQo=",
+                                                  "url":  "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510642385"
                                               }
                   }
 }
