@@ -1,15 +1,15 @@
 {
-  "version": "0.3.29",
-  "notes": "### Identidad visual\n\n- Se integra la calavera orbital aprobada como fuente unica del icono visual y nativo.\n- Se regeneran el favicon, la marca de la interfaz, los recursos PNG de Tauri y el ICO del instalador con transparencia real.\n- El area visible queda ajustada para conservar una presencia comparable a los iconos estandar de Windows en la barra de tareas y accesos directos.",
-  "pub_date": "2026-08-11T14:39:09.497Z",
+  "version": "0.3.30",
+  "notes": "### Identidad visual\n\n- Se aumenta un 25% el area visible de la marca en la interfaz.\n- Se recortan los margenes transparentes de los recursos nativos para que la calavera orbital ocupe practicamente todo el cuadro sin recortar la orbita.",
+  "pub_date": "2026-08-11T14:59:13.892Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5QTkpGU1poU0lYNEhsY3AveGwvajdGeWlYbUp4aithWjk3QzluendPdEFjMXlJeWZZZHVOZE9qd2YwSUFPMGNhTXlkM0NlQ29kcEpZQnhVc2pXbGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDU5MTQ2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI5X3g2NC1zZXR1cC5leGUKZmJtQzZSczFTTDJHdkxsOHNLWEVHRTlkYjV5T2tFdDZGVTBFTE1ZdVdrVi92bzZxRkVwbE55V1FnVUdBSitrL2lvNnFFclcvamdSTFp5TGVXU2p6RFE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510246679"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtPMklRNCs3ckV2NXlUWlA2TWpiYk13NTlDWmE0bjVySGFHZ2lXeHRCaEVZM1Exbi9LSkloaWJYYWM0bEh4d0VSVDdXeUlUZmh5cWluQmxSdWJTeUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDYwMzUwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMwX3g2NC1zZXR1cC5leGUKRU1ZTTMxclA4VDl4ZmxyUE04eGpNUUJ1UVptVHo0RXNlaHN1NklWNVA0bzYwKzYyVkRMQVRpaGRtSlV1ZEQ4b3NTZkRNTUZlNldVNHRaT3hNblRGQ0E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510268838"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5QTkpGU1poU0lYNEhsY3AveGwvajdGeWlYbUp4aithWjk3QzluendPdEFjMXlJeWZZZHVOZE9qd2YwSUFPMGNhTXlkM0NlQ29kcEpZQnhVc2pXbGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDU5MTQ2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI5X3g2NC1zZXR1cC5leGUKZmJtQzZSczFTTDJHdkxsOHNLWEVHRTlkYjV5T2tFdDZGVTBFTE1ZdVdrVi92bzZxRkVwbE55V1FnVUdBSitrL2lvNnFFclcvamdSTFp5TGVXU2p6RFE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510246679"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtPMklRNCs3ckV2NXlUWlA2TWpiYk13NTlDWmE0bjVySGFHZ2lXeHRCaEVZM1Exbi9LSkloaWJYYWM0bEh4d0VSVDdXeUlUZmh5cWluQmxSdWJTeUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDYwMzUwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMwX3g2NC1zZXR1cC5leGUKRU1ZTTMxclA4VDl4ZmxyUE04eGpNUUJ1UVptVHo0RXNlaHN1NklWNVA0bzYwKzYyVkRMQVRpaGRtSlV1ZEQ4b3NTZkRNTUZlNldVNHRaT3hNblRGQ0E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510268838"
     }
   }
 }
