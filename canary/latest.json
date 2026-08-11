@@ -1,15 +1,15 @@
 {
-  "version": "0.3.31",
-  "notes": "### Herramientas\n\n- Se agrega Descargar para buscar varios folios y reunir los informes PDF encontrados en un ZIP.\n- La descarga informa los folios encontrados, ausentes y excluidos antes de guardar el archivo.\n- El visor PDF incorpora una descarga individual que conserva el nombre original del informe.\n\n### Apariencia\n\n- Se agrega un efecto visual Mica sutil en Windows compatibles, con fallback visual para equipos que no lo admitan.\n\nEste registro resume el historial funcional de Gestión APA desde la preparación del repositorio hasta la versión publicada más reciente.",
-  "pub_date": "2026-08-11T16:16:18.310Z",
+  "version": "0.3.32",
+  "notes": "### Correcciones\n\n- El buscador permanece centrado dentro de la barra superior al cambiar el tamaño de la ventana.\n- La interfaz de escritorio muestra una transparencia Mica visible cuando Windows la admite y conserva un fallback legible.\n- Se corrigen los textos y el botón de cierre de la herramienta Descargar.\n- La auditoría muestra `Dr. Solicitante` y `Fecha límite`, incluida la vista lateral del informe PDF.",
+  "pub_date": "2026-08-11T17:14:31.102Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGp1b0IySGNoc2cvNlZtOWNlY3pzdnZmekNoV0lqVWE1UzdNaElKK3JBVmY0OUhuS1o1djE5bXM3VTM2NHY3VXhsWXpvT2FnNVlXR0lCYXhJc0pOQXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDY0OTc1CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMxX3g2NC1zZXR1cC5leGUKdGswK080S05uUlYremkvUEhablp2TmhZa3R6NzZ4NmZWdUUvQTloa3BRY1crOUV3L2piQmg1Ujl3ZTJPb2FlaFo2ZmRhcmJua0tSVFF2NW5mOTRaQ1E9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510348667"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtYRTZ4bFkxZkNyNmxpc28rTXhDdHNpMFJYZHkyWDdMdHNxWFF2enZQaWxIKzdNaGVJdDhwK09kaXp3R0VDYzR5citjWmJzWlVVQWgyWkNqYzN5dkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDY4NDY4CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMyX3g2NC1zZXR1cC5leGUKZUx5eE9MTU1lenpFMXQ0TmVJMThuVlZQRDFEM2d6V1BONEhBK2tNT01TbU5VTEV2YzU5S0lhaDBsTkhkNWk1cHdnZmtCSHpmbklna1hiQjZ2alpxQVE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510409244"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGp1b0IySGNoc2cvNlZtOWNlY3pzdnZmekNoV0lqVWE1UzdNaElKK3JBVmY0OUhuS1o1djE5bXM3VTM2NHY3VXhsWXpvT2FnNVlXR0lCYXhJc0pOQXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDY0OTc1CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMxX3g2NC1zZXR1cC5leGUKdGswK080S05uUlYremkvUEhablp2TmhZa3R6NzZ4NmZWdUUvQTloa3BRY1crOUV3L2piQmg1Ujl3ZTJPb2FlaFo2ZmRhcmJua0tSVFF2NW5mOTRaQ1E9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510348667"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtYRTZ4bFkxZkNyNmxpc28rTXhDdHNpMFJYZHkyWDdMdHNxWFF2enZQaWxIKzdNaGVJdDhwK09kaXp3R0VDYzR5citjWmJzWlVVQWgyWkNqYzN5dkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDY4NDY4CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMyX3g2NC1zZXR1cC5leGUKZUx5eE9MTU1lenpFMXQ0TmVJMThuVlZQRDFEM2d6V1BONEhBK2tNT01TbU5VTEV2YzU5S0lhaDBsTkhkNWk1cHdnZmtCSHpmbklna1hiQjZ2alpxQVE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510409244"
     }
   }
 }
