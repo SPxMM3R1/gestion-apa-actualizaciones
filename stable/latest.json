@@ -1,15 +1,15 @@
 {
-  "version": "0.3.24",
-  "notes": "### Correcciones\n\n- Se retiran de la interfaz los restos del motor OCR experimental que no formaba parte de la compilacion de escritorio.\n- La verificacion documental conserva el motor OCR local para folio y datos clinicos, sin extraer ni comparar la fecha de validacion del PDF.\n\n### Calidad\n\n- Calidad incorpora una comprobacion preventiva para impedir que recursos o referencias del motor experimental vuelvan a entrar en futuras compilaciones.\n\n### Actualizaciones\n\n- Se conserva la arquitectura de canales Stable y Canary, la recuperacion Stable y la validacion de firma, hash e integridad.",
-  "pub_date": "2026-08-06T12:30:05.628Z",
+  "version": "0.3.30",
+  "notes": "### Identidad visual\n\n- Se aumenta un 25% el area visible de la marca en la interfaz.\n- Se recortan los margenes transparentes de los recursos nativos para que la calavera orbital ocupe practicamente todo el cuadro sin recortar la orbita.",
+  "pub_date": "2026-08-11T14:59:13.892Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGp5TkNXVmdvekRSMjZXNHczMlJsM2xsbm5IRUMvZE5qS3I3Tk5MclJsekRIWG9XR2FKQTE4cTR2RDQ1emVJK0RGUlo3dko3VFgzUUpUdE8zRWpkUUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MDE5NDAyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI0X3g2NC1zZXR1cC5leGUKWUZrZVNRRm11bjRCdGlrWlE0SXdTdFJXVXNzVHBJelBiV1YwTEhScndlL2VRY3ZRYW1YUDh0K29aVDRJYXRCZWNjcmxWcjBZaXRkL1RNZlpUVWhuQ1E9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.24/Gestion.APA.-.Tiempos.de.respuesta_0.3.24_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtPMklRNCs3ckV2NXlUWlA2TWpiYk13NTlDWmE0bjVySGFHZ2lXeHRCaEVZM1Exbi9LSkloaWJYYWM0bEh4d0VSVDdXeUlUZmh5cWluQmxSdWJTeUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDYwMzUwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMwX3g2NC1zZXR1cC5leGUKRU1ZTTMxclA4VDl4ZmxyUE04eGpNUUJ1UVptVHo0RXNlaHN1NklWNVA0bzYwKzYyVkRMQVRpaGRtSlV1ZEQ4b3NTZkRNTUZlNldVNHRaT3hNblRGQ0E9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.30/Gestion.APA.-.Tiempos.de.respuesta_0.3.30_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGp5TkNXVmdvekRSMjZXNHczMlJsM2xsbm5IRUMvZE5qS3I3Tk5MclJsekRIWG9XR2FKQTE4cTR2RDQ1emVJK0RGUlo3dko3VFgzUUpUdE8zRWpkUUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MDE5NDAyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjI0X3g2NC1zZXR1cC5leGUKWUZrZVNRRm11bjRCdGlrWlE0SXdTdFJXVXNzVHBJelBiV1YwTEhScndlL2VRY3ZRYW1YUDh0K29aVDRJYXRCZWNjcmxWcjBZaXRkL1RNZlpUVWhuQ1E9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.24/Gestion.APA.-.Tiempos.de.respuesta_0.3.24_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtPMklRNCs3ckV2NXlUWlA2TWpiYk13NTlDWmE0bjVySGFHZ2lXeHRCaEVZM1Exbi9LSkloaWJYYWM0bEh4d0VSVDdXeUlUZmh5cWluQmxSdWJTeUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDYwMzUwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMwX3g2NC1zZXR1cC5leGUKRU1ZTTMxclA4VDl4ZmxyUE04eGpNUUJ1UVptVHo0RXNlaHN1NklWNVA0bzYwKzYyVkRMQVRpaGRtSlV1ZEQ4b3NTZkRNTUZlNldVNHRaT3hNblRGQ0E9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.30/Gestion.APA.-.Tiempos.de.respuesta_0.3.30_x64-setup.exe"
     }
   }
 }
