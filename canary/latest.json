@@ -1,15 +1,15 @@
 {
-    "version":  "0.3.33",
-    "notes":  "### Interfaz\n\n- Configuración organizada en pestañas de Vinculación y Actualizaciones, con las dos fuentes visibles en columnas.\n- El buscador permanece centrado respecto a los controles de la barra superior.\n- El modo oscuro unifica la barra lateral y el área de trabajo, con superficies planas y bordes sutiles.\n- Los KPI conservan únicamente su indicador de color superior, sin separadores blancos laterales o inferiores.",
-    "pub_date":  "2026-08-11T21:06:01.4860322Z",
+    "version":  "0.3.34",
+    "notes":  "### Interfaz\n\n- La ventana de Configuración conserva la misma altura al alternar entre Vinculación y Actualizaciones.\n- El modal de parámetros incorpora un borde exterior gris más marcado para distinguirlo del fondo.\n- Las superficies principales y los separadores del área de trabajo se integran con el fondo, manteniendo los bordes funcionales de controles y los colores de alertas.",
+    "pub_date":  "2026-08-12T12:57:38.3582477Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHI4T3ZDM2Z3aVArTGY0Z3hRMCtzVXF0ZENpWEFha2Vnc0lNZkdrSVNkY1BUVFFyajB3amdMOVlNa2FQcW5XL3NHRDJkYjNucUdYWnlDTWtpRFBCb1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDgyMjc2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMzX3g2NC1zZXR1cC5leGUKRnRyRnBCR2F1UUtNZ2luNHdHL3VvN0IzdU8vUlpqTzdsSmM1T1pUMm5UaHJhSGtNNlkxWTlCR3RldDJWTzMzNk8yUmZ5RFB6em5VZFlSUFVQNWN1Qmc9PQo=",
-                                             "url":  "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510642385"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHVpb21JVWRjQmgyTm54YngybUdoVjVwdUhsOU5oK2JlRmg0NGF3Nzc1MVdXZnhFQld3eStCZU9wWDJDNVBxd1pmeEl1OElXNGFrbnNhaDZxTjlFRndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTM4NjEyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM0X3g2NC1zZXR1cC5leGUKZkpCbzJXS0JENC9QY2xOVU5tSUdPdUt6RjVOWWljaWExUVU2M0hFNVl0a1pCRmJiczJNeVhNTk91N3pEU0xXdFVRNW1SRHhUMXJVVHE1TFZBT0dUQnc9PQo=",
+                                             "url":  "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.34-local-41111ea/Gestion.APA.-.Tiempos.de.respuesta_0.3.34_x64-setup.exe"
                                          },
                       "windows-x86_64-nsis":  {
-                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHI4T3ZDM2Z3aVArTGY0Z3hRMCtzVXF0ZENpWEFha2Vnc0lNZkdrSVNkY1BUVFFyajB3amdMOVlNa2FQcW5XL3NHRDJkYjNucUdYWnlDTWtpRFBCb1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDgyMjc2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMzX3g2NC1zZXR1cC5leGUKRnRyRnBCR2F1UUtNZ2luNHdHL3VvN0IzdU8vUlpqTzdsSmM1T1pUMm5UaHJhSGtNNlkxWTlCR3RldDJWTzMzNk8yUmZ5RFB6em5VZFlSUFVQNWN1Qmc9PQo=",
-                                                  "url":  "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/510642385"
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHVpb21JVWRjQmgyTm54YngybUdoVjVwdUhsOU5oK2JlRmg0NGF3Nzc1MVdXZnhFQld3eStCZU9wWDJDNVBxd1pmeEl1OElXNGFrbnNhaDZxTjlFRndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTM4NjEyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM0X3g2NC1zZXR1cC5leGUKZkpCbzJXS0JENC9QY2xOVU5tSUdPdUt6RjVOWWljaWExUVU2M0hFNVl0a1pCRmJiczJNeVhNTk91N3pEU0xXdFVRNW1SRHhUMXJVVHE1TFZBT0dUQnc9PQo=",
+                                                  "url":  "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.34-local-41111ea/Gestion.APA.-.Tiempos.de.respuesta_0.3.34_x64-setup.exe"
                                               }
                   }
 }
