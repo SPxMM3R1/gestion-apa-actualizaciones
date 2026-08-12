@@ -1,52 +1,52 @@
 {
   "schemaVersion": 1,
   "channel": "canary",
-  "version": "0.3.34",
-  "tag": "canary-v0.3.34-local-41111ea",
+  "version": "0.3.35",
+  "tag": "canary-v0.3.35-local-d745a72",
   "sourceRepository": "SPxMM3R1/gestion-apa-tiempos-respuesta",
-  "sourceCommit": "41111eada7e05b596db1e8ae2f075729e6d8d841",
-  "workflow": "manual-local",
-  "generatedAt": "2026-08-12T12:57:38.617Z",
-  "notes": "﻿### Interfaz\n\n- La ventana de Configuración conserva la misma altura al alternar entre Vinculación y Actualizaciones.\n- El modal de parámetros incorpora un borde exterior gris más marcado para distinguirlo del fondo.\n- Las superficies principales y los separadores del área de trabajo se integran con el fondo, manteniendo los bordes funcionales de controles y los colores de alertas.\r\n",
+  "sourceCommit": "d745a726e9c0bd6d334c823bc4f9a49381012dca",
+  "workflow": "local-d745a72",
+  "generatedAt": "2026-08-12T19:35:19.210Z",
+  "notes": "### Descargas e impresión\n\n- Descarga masiva con búsqueda por folio o RUT, selección individual, carrito de informes y reordenamiento.\n- Impresión de informes seleccionados o de todos los informes del carrito.\n- Descarga de archivos PDF individuales conservando su nombre original y eliminación del flujo de PDF combinado.\n\n### Interfaz y correcciones\n\n- La auditoría administra su propio desplazamiento y el visor PDF conserva una barra lateral independiente.\n- Se oculta la barra de desplazamiento redundante de la ventana de configuración sin perder el desplazamiento funcional.\n- Se afina el borde exterior del modal de configuración para integrarlo mejor al modo oscuro.\n- Se actualiza la auditoría de arquitectura para validar el nuevo marco visual.\r\n",
   "latestJson": {
     "name": "latest.json",
-    "sha256": "fa5923d4e9aecaddd5ea2d7ee62c7d3a717bfdabed145d6c5c44d3b6a6ee81df"
+    "sha256": "20fc30589963c12dbe73a5f00819614362589c3244b6508052092fed594afa27"
   },
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHVpb21JVWRjQmgyTm54YngybUdoVjVwdUhsOU5oK2JlRmg0NGF3Nzc1MVdXZnhFQld3eStCZU9wWDJDNVBxd1pmeEl1OElXNGFrbnNhaDZxTjlFRndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTM4NjEyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM0X3g2NC1zZXR1cC5leGUKZkpCbzJXS0JENC9QY2xOVU5tSUdPdUt6RjVOWWljaWExUVU2M0hFNVl0a1pCRmJiczJNeVhNTk91N3pEU0xXdFVRNW1SRHhUMXJVVHE1TFZBT0dUQnc9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.34-local-41111ea/Gestion.APA.-.Tiempos.de.respuesta_0.3.34_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRpTHA0LzZHQ2dPek9ubFF5Q1hVbW9FZkpvNzg0aFhUWTZJTGtBaTJtNjlhWlowM21wNlNPMkFHQ3lzZ1JwZU5FQTdRVDFudXU3eWpWMGRiZ08zOVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTYyODcyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM1X3g2NC1zZXR1cC5leGUKWlpwOUFaeGdsSmJJZkU2UTh4eXhvZHdSUlNYcGFZWnJoTlAwVnVUc3dNbE1ZNXFDVXA0NmswN0t6NStYbjY0OGhVck01TGF2U25IU1pXclRQN3llQ0E9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.35-local-d745a72/Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHVpb21JVWRjQmgyTm54YngybUdoVjVwdUhsOU5oK2JlRmg0NGF3Nzc1MVdXZnhFQld3eStCZU9wWDJDNVBxd1pmeEl1OElXNGFrbnNhaDZxTjlFRndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTM4NjEyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM0X3g2NC1zZXR1cC5leGUKZkpCbzJXS0JENC9QY2xOVU5tSUdPdUt6RjVOWWljaWExUVU2M0hFNVl0a1pCRmJiczJNeVhNTk91N3pEU0xXdFVRNW1SRHhUMXJVVHE1TFZBT0dUQnc9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.34-local-41111ea/Gestion.APA.-.Tiempos.de.respuesta_0.3.34_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRpTHA0LzZHQ2dPek9ubFF5Q1hVbW9FZkpvNzg0aFhUWTZJTGtBaTJtNjlhWlowM21wNlNPMkFHQ3lzZ1JwZU5FQTdRVDFudXU3eWpWMGRiZ08zOVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTYyODcyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM1X3g2NC1zZXR1cC5leGUKWlpwOUFaeGdsSmJJZkU2UTh4eXhvZHdSUlNYcGFZWnJoTlAwVnVUc3dNbE1ZNXFDVXA0NmswN0t6NStYbjY0OGhVck01TGF2U25IU1pXclRQN3llQ0E9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.35-local-d745a72/Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe"
     }
   },
   "assets": [
     {
       "name": "gestion-apa-recovery.exe",
-      "size": 2158592,
-      "sha256": "11cced2a12857b4a5a4f998e174d29946680d10190a80ffd900c2e6f24be20a0"
+      "size": 2159104,
+      "sha256": "7b5155705611b11bc8a0af92f58632a3eec92872202aeada905debb2abb7ff8f"
     },
     {
-      "name": "Gestion.APA.-.Tiempos.de.respuesta_0.3.34_x64-setup.exe",
-      "size": 11212207,
-      "sha256": "bebb3242b3c861d914d0774a96f636b104a8a52c5d27588c06f58524b0e4cf05"
+      "name": "Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe",
+      "size": 11223520,
+      "sha256": "f707a9fbd8994fb4393712c161ab0f3d9a7e80f3fb345977ffdc0c3fe6e9ea6a"
     },
     {
-      "name": "Gestion.APA.-.Tiempos.de.respuesta_0.3.34_x64-setup.exe.sig",
+      "name": "Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe.sig",
       "size": 456,
-      "sha256": "f1731d6ede07f65d6f533464d56d2254b1d0a47587fadfb53d3227c2b92fd869"
+      "sha256": "4c9d2dfe5e15705247322736e72fb6bfa068414ef5c55ede2b71f1f3e91f8bd8"
     },
     {
       "name": "latest.json",
-      "size": 2203,
-      "sha256": "fa5923d4e9aecaddd5ea2d7ee62c7d3a717bfdabed145d6c5c44d3b6a6ee81df"
+      "size": 2571,
+      "sha256": "20fc30589963c12dbe73a5f00819614362589c3244b6508052092fed594afa27"
     },
     {
       "name": "recovery-helper-manifest.json",
       "size": 517,
-      "sha256": "1cf32821196521774c996ba4da3b42b4b1c8994805c8150db302fc91a616b02e"
+      "sha256": "d01e1b9190a479024fa8f1ba9b65453d2ae06183f7057f69746713a7ab8291aa"
     }
   ]
 }
