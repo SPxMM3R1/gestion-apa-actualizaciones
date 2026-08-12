@@ -1,15 +1,15 @@
 {
-  "version": "0.3.30",
-  "notes": "### Identidad visual\n\n- Se aumenta un 25% el area visible de la marca en la interfaz.\n- Se recortan los margenes transparentes de los recursos nativos para que la calavera orbital ocupe practicamente todo el cuadro sin recortar la orbita.",
-  "pub_date": "2026-08-11T14:59:13.892Z",
+  "version": "0.3.34",
+  "notes": "### Interfaz\n\n- La ventana de Configuración conserva la misma altura al alternar entre Vinculación y Actualizaciones.\n- El modal de parámetros incorpora un borde exterior gris más marcado para distinguirlo del fondo.\n- Las superficies principales y los separadores del área de trabajo se integran con el fondo, manteniendo los bordes funcionales de controles y los colores de alertas.",
+  "pub_date": "2026-08-12T12:57:38.3582477Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtPMklRNCs3ckV2NXlUWlA2TWpiYk13NTlDWmE0bjVySGFHZ2lXeHRCaEVZM1Exbi9LSkloaWJYYWM0bEh4d0VSVDdXeUlUZmh5cWluQmxSdWJTeUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDYwMzUwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMwX3g2NC1zZXR1cC5leGUKRU1ZTTMxclA4VDl4ZmxyUE04eGpNUUJ1UVptVHo0RXNlaHN1NklWNVA0bzYwKzYyVkRMQVRpaGRtSlV1ZEQ4b3NTZkRNTUZlNldVNHRaT3hNblRGQ0E9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.30/Gestion.APA.-.Tiempos.de.respuesta_0.3.30_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHVpb21JVWRjQmgyTm54YngybUdoVjVwdUhsOU5oK2JlRmg0NGF3Nzc1MVdXZnhFQld3eStCZU9wWDJDNVBxd1pmeEl1OElXNGFrbnNhaDZxTjlFRndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTM4NjEyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM0X3g2NC1zZXR1cC5leGUKZkpCbzJXS0JENC9QY2xOVU5tSUdPdUt6RjVOWWljaWExUVU2M0hFNVl0a1pCRmJiczJNeVhNTk91N3pEU0xXdFVRNW1SRHhUMXJVVHE1TFZBT0dUQnc9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.34/Gestion.APA.-.Tiempos.de.respuesta_0.3.34_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtPMklRNCs3ckV2NXlUWlA2TWpiYk13NTlDWmE0bjVySGFHZ2lXeHRCaEVZM1Exbi9LSkloaWJYYWM0bEh4d0VSVDdXeUlUZmh5cWluQmxSdWJTeUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDYwMzUwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjMwX3g2NC1zZXR1cC5leGUKRU1ZTTMxclA4VDl4ZmxyUE04eGpNUUJ1UVptVHo0RXNlaHN1NklWNVA0bzYwKzYyVkRMQVRpaGRtSlV1ZEQ4b3NTZkRNTUZlNldVNHRaT3hNblRGQ0E9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.30/Gestion.APA.-.Tiempos.de.respuesta_0.3.30_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHVpb21JVWRjQmgyTm54YngybUdoVjVwdUhsOU5oK2JlRmg0NGF3Nzc1MVdXZnhFQld3eStCZU9wWDJDNVBxd1pmeEl1OElXNGFrbnNhaDZxTjlFRndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTM4NjEyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM0X3g2NC1zZXR1cC5leGUKZkpCbzJXS0JENC9QY2xOVU5tSUdPdUt6RjVOWWljaWExUVU2M0hFNVl0a1pCRmJiczJNeVhNTk91N3pEU0xXdFVRNW1SRHhUMXJVVHE1TFZBT0dUQnc9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.34/Gestion.APA.-.Tiempos.de.respuesta_0.3.34_x64-setup.exe"
     }
   }
 }
