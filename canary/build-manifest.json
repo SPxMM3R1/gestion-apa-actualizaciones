@@ -1,52 +1,52 @@
 {
   "schemaVersion": 1,
   "channel": "canary",
-  "version": "0.3.35",
-  "tag": "canary-v0.3.35-local-d745a72",
+  "version": "0.3.36",
+  "tag": "canary-v0.3.36-local-3ce7864",
   "sourceRepository": "SPxMM3R1/gestion-apa-tiempos-respuesta",
-  "sourceCommit": "d745a726e9c0bd6d334c823bc4f9a49381012dca",
-  "workflow": "local-d745a72",
-  "generatedAt": "2026-08-12T19:35:19.210Z",
-  "notes": "### Descargas e impresión\n\n- Descarga masiva con búsqueda por folio o RUT, selección individual, carrito de informes y reordenamiento.\n- Impresión de informes seleccionados o de todos los informes del carrito.\n- Descarga de archivos PDF individuales conservando su nombre original y eliminación del flujo de PDF combinado.\n\n### Interfaz y correcciones\n\n- La auditoría administra su propio desplazamiento y el visor PDF conserva una barra lateral independiente.\n- Se oculta la barra de desplazamiento redundante de la ventana de configuración sin perder el desplazamiento funcional.\n- Se afina el borde exterior del modal de configuración para integrarlo mejor al modo oscuro.\n- Se actualiza la auditoría de arquitectura para validar el nuevo marco visual.\r\n",
+  "sourceCommit": "3ce7864ad50f2e9120711b98d30fd86f6fb13ed3",
+  "workflow": "manual-local",
+  "generatedAt": "2026-08-13T12:47:54.054Z",
+  "notes": "### Impresión masiva y flujo local\n\n- La impresión masiva continúa con la cola de informes aunque el visor integrado no emita `afterprint`, y libera sus recursos temporales al finalizar.\n- La selección y eliminación de informes se sincronizan con el carrito; el flujo local prepara el asistente de recuperación y el entorno MSVC antes de validar y compilar.",
   "latestJson": {
     "name": "latest.json",
-    "sha256": "20fc30589963c12dbe73a5f00819614362589c3244b6508052092fed594afa27"
+    "sha256": "a816a5887906633fb19c874ee36c4b963b20992e1a7a81ec82c5c2f6e6d1dafa"
   },
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRpTHA0LzZHQ2dPek9ubFF5Q1hVbW9FZkpvNzg0aFhUWTZJTGtBaTJtNjlhWlowM21wNlNPMkFHQ3lzZ1JwZU5FQTdRVDFudXU3eWpWMGRiZ08zOVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTYyODcyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM1X3g2NC1zZXR1cC5leGUKWlpwOUFaeGdsSmJJZkU2UTh4eXhvZHdSUlNYcGFZWnJoTlAwVnVUc3dNbE1ZNXFDVXA0NmswN0t6NStYbjY0OGhVck01TGF2U25IU1pXclRQN3llQ0E9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.35-local-d745a72/Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJ0ZHRLQXNZaVVIUlVTMUFaRUd1MG9zQlB6ZjRuY3prYzYrZC9XZzRsTnh0SURVSUhDMktzSlFYeEJsY2Y2RU00cWNpMjJHVCtyYnZ5RlNBYXpIQlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjI0OTAzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM2X3g2NC1zZXR1cC5leGUKMFBqRm42cXZHdlhjbThETFNQR01ISGNMdGJOMU9KYjVDV1VUSE5sSU5RL0Jxa3dacm1xUFlycnQ3Q2lkb0tjS29GS3Rudnd6RXN1THU2S0hFajJ0Q0E9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.36-local-3ce7864/Gestion.APA.-.Tiempos.de.respuesta_0.3.36_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRpTHA0LzZHQ2dPek9ubFF5Q1hVbW9FZkpvNzg0aFhUWTZJTGtBaTJtNjlhWlowM21wNlNPMkFHQ3lzZ1JwZU5FQTdRVDFudXU3eWpWMGRiZ08zOVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTYyODcyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM1X3g2NC1zZXR1cC5leGUKWlpwOUFaeGdsSmJJZkU2UTh4eXhvZHdSUlNYcGFZWnJoTlAwVnVUc3dNbE1ZNXFDVXA0NmswN0t6NStYbjY0OGhVck01TGF2U25IU1pXclRQN3llQ0E9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.35-local-d745a72/Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJ0ZHRLQXNZaVVIUlVTMUFaRUd1MG9zQlB6ZjRuY3prYzYrZC9XZzRsTnh0SURVSUhDMktzSlFYeEJsY2Y2RU00cWNpMjJHVCtyYnZ5RlNBYXpIQlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjI0OTAzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM2X3g2NC1zZXR1cC5leGUKMFBqRm42cXZHdlhjbThETFNQR01ISGNMdGJOMU9KYjVDV1VUSE5sSU5RL0Jxa3dacm1xUFlycnQ3Q2lkb0tjS29GS3Rudnd6RXN1THU2S0hFajJ0Q0E9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.36-local-3ce7864/Gestion.APA.-.Tiempos.de.respuesta_0.3.36_x64-setup.exe"
     }
   },
   "assets": [
     {
       "name": "gestion-apa-recovery.exe",
-      "size": 2159104,
-      "sha256": "7b5155705611b11bc8a0af92f58632a3eec92872202aeada905debb2abb7ff8f"
+      "size": 2179072,
+      "sha256": "12c65baf43e7d358ebeba9fb43a0bc7ef69797463c8f676e48ba1fdf704c6b62"
     },
     {
-      "name": "Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe",
-      "size": 11223520,
-      "sha256": "f707a9fbd8994fb4393712c161ab0f3d9a7e80f3fb345977ffdc0c3fe6e9ea6a"
+      "name": "Gestion.APA.-.Tiempos.de.respuesta_0.3.36_x64-setup.exe",
+      "size": 11222780,
+      "sha256": "bf2ba1c5c3dee9fb0d10f551e30d5779135db9019c970007bcefb6590b9c159e"
     },
     {
-      "name": "Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe.sig",
+      "name": "Gestion.APA.-.Tiempos.de.respuesta_0.3.36_x64-setup.exe.sig",
       "size": 456,
-      "sha256": "4c9d2dfe5e15705247322736e72fb6bfa068414ef5c55ede2b71f1f3e91f8bd8"
+      "sha256": "f58ffe532a5fe38d4275d5bfb7847cf93d9c0f00a7eda2ecd5d828f36a004f97"
     },
     {
       "name": "latest.json",
-      "size": 2571,
-      "sha256": "20fc30589963c12dbe73a5f00819614362589c3244b6508052092fed594afa27"
+      "size": 2176,
+      "sha256": "a816a5887906633fb19c874ee36c4b963b20992e1a7a81ec82c5c2f6e6d1dafa"
     },
     {
       "name": "recovery-helper-manifest.json",
       "size": 517,
-      "sha256": "d01e1b9190a479024fa8f1ba9b65453d2ae06183f7057f69746713a7ab8291aa"
+      "sha256": "fe285a4e8c3be9096b9ea5284fe4bfddfd580071f6328fc69b30b039db8d8363"
     }
   ]
 }

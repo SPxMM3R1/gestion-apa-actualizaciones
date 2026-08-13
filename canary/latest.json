@@ -1,15 +1,15 @@
 {
-    "version":  "0.3.35",
-    "notes":  "### Descargas e impresión\n\n- Descarga masiva con búsqueda por folio o RUT, selección individual, carrito de informes y reordenamiento.\n- Impresión de informes seleccionados o de todos los informes del carrito.\n- Descarga de archivos PDF individuales conservando su nombre original y eliminación del flujo de PDF combinado.\n\n### Interfaz y correcciones\n\n- La auditoría administra su propio desplazamiento y el visor PDF conserva una barra lateral independiente.\n- Se oculta la barra de desplazamiento redundante de la ventana de configuración sin perder el desplazamiento funcional.\n- Se afina el borde exterior del modal de configuración para integrarlo mejor al modo oscuro.\n- Se actualiza la auditoría de arquitectura para validar el nuevo marco visual.",
-    "pub_date":  "2026-08-12T19:33:01.5545716Z",
+    "version":  "0.3.36",
+    "notes":  "### Impresión masiva y flujo local\n\n- La impresión masiva continúa con la cola de informes aunque el visor integrado no emita `afterprint`, y libera sus recursos temporales al finalizar.\n- La selección y eliminación de informes se sincronizan con el carrito; el flujo local prepara el asistente de recuperación y el entorno MSVC antes de validar y compilar.",
+    "pub_date":  "2026-08-13T12:45:28.9236416Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRpTHA0LzZHQ2dPek9ubFF5Q1hVbW9FZkpvNzg0aFhUWTZJTGtBaTJtNjlhWlowM21wNlNPMkFHQ3lzZ1JwZU5FQTdRVDFudXU3eWpWMGRiZ08zOVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTYyODcyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM1X3g2NC1zZXR1cC5leGUKWlpwOUFaeGdsSmJJZkU2UTh4eXhvZHdSUlNYcGFZWnJoTlAwVnVUc3dNbE1ZNXFDVXA0NmswN0t6NStYbjY0OGhVck01TGF2U25IU1pXclRQN3llQ0E9PQo=",
-                                             "url":  "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.35-local-d745a72/Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJ0ZHRLQXNZaVVIUlVTMUFaRUd1MG9zQlB6ZjRuY3prYzYrZC9XZzRsTnh0SURVSUhDMktzSlFYeEJsY2Y2RU00cWNpMjJHVCtyYnZ5RlNBYXpIQlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjI0OTAzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM2X3g2NC1zZXR1cC5leGUKMFBqRm42cXZHdlhjbThETFNQR01ISGNMdGJOMU9KYjVDV1VUSE5sSU5RL0Jxa3dacm1xUFlycnQ3Q2lkb0tjS29GS3Rudnd6RXN1THU2S0hFajJ0Q0E9PQo=",
+                                             "url":  "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.36-local-3ce7864/Gestion.APA.-.Tiempos.de.respuesta_0.3.36_x64-setup.exe"
                                          },
                       "windows-x86_64-nsis":  {
-                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRpTHA0LzZHQ2dPek9ubFF5Q1hVbW9FZkpvNzg0aFhUWTZJTGtBaTJtNjlhWlowM21wNlNPMkFHQ3lzZ1JwZU5FQTdRVDFudXU3eWpWMGRiZ08zOVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTYyODcyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM1X3g2NC1zZXR1cC5leGUKWlpwOUFaeGdsSmJJZkU2UTh4eXhvZHdSUlNYcGFZWnJoTlAwVnVUc3dNbE1ZNXFDVXA0NmswN0t6NStYbjY0OGhVck01TGF2U25IU1pXclRQN3llQ0E9PQo=",
-                                                  "url":  "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.35-local-d745a72/Gestion.APA.-.Tiempos.de.respuesta_0.3.35_x64-setup.exe"
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJ0ZHRLQXNZaVVIUlVTMUFaRUd1MG9zQlB6ZjRuY3prYzYrZC9XZzRsTnh0SURVSUhDMktzSlFYeEJsY2Y2RU00cWNpMjJHVCtyYnZ5RlNBYXpIQlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjI0OTAzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM2X3g2NC1zZXR1cC5leGUKMFBqRm42cXZHdlhjbThETFNQR01ISGNMdGJOMU9KYjVDV1VUSE5sSU5RL0Jxa3dacm1xUFlycnQ3Q2lkb0tjS29GS3Rudnd6RXN1THU2S0hFajJ0Q0E9PQo=",
+                                                  "url":  "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.36-local-3ce7864/Gestion.APA.-.Tiempos.de.respuesta_0.3.36_x64-setup.exe"
                                               }
                   }
 }
