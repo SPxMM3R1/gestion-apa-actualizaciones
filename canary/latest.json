@@ -1,15 +1,15 @@
 {
   "version": "0.3.38",
   "notes": "## [0.3.38] - 2026-08-18\n\n### Interfaz\n\n- Se corrige la grilla de tarjetas de auditoría para conservar el ancho disponible, ajustar textos largos y separar correctamente los bloques clínicos en ventanas estrechas.",
-  "pub_date": "2026-08-18T19:39:02.9818901+00:00",
+  "pub_date": "2026-08-19T20:07:54.0447138Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGt4MEpRU01QSDR6SVNWUXlNMng0R243QXFmaW5WNFI0VzFaejIyOEdvWVh1M2Z6UUtCb2Y2aURIMHUrNWN5UzRwc09xb1FDMmNDMitDcmxqWHNQWEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDgxNzc0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM4X3g2NC1zZXR1cC5leGUKN052WkYwcHRaRldBN1ZFOENpVWw3Nm9SNGl2Q0RXek03cGErdUxPSXFoMFY0WDVkSmV5VWM0YWNETlJMR3hVV3pORk85WnhNcEZEK2kva0EzaWJKQ3c9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.38-local-5f570cf/Gestion.APA.-.Tiempos.de.respuesta_0.3.38_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGpBSnVDREJNb1psL0RQTTk3WXlacC9OTmkzZ3hhTFN1cEhPYzVkbmJYOW4zdDdiUVFpeE1kQS9vNDhxN2c3ZER6M3Axdk9YWFQ2aDlxeDBwUnlRdndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTY5OTUzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM4X3g2NC1zZXR1cC5leGUKbkFON3FRS1V1UTJ0R0tMbjlVaDh4NlNtY1BKZTFWbVJxK2t2MnpRL2F5cFpGaVR4S1RxVWhzTnhWaUZ2Uk5nOU1tS3JlRUdvdFZKMjJFR3FZeTU3QkE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.38-local-09707d7/Gestion.APA.-.Tiempos.de.respuesta_0.3.38_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGt4MEpRU01QSDR6SVNWUXlNMng0R243QXFmaW5WNFI0VzFaejIyOEdvWVh1M2Z6UUtCb2Y2aURIMHUrNWN5UzRwc09xb1FDMmNDMitDcmxqWHNQWEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDgxNzc0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM4X3g2NC1zZXR1cC5leGUKN052WkYwcHRaRldBN1ZFOENpVWw3Nm9SNGl2Q0RXek03cGErdUxPSXFoMFY0WDVkSmV5VWM0YWNETlJMR3hVV3pORk85WnhNcEZEK2kva0EzaWJKQ3c9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.38-local-5f570cf/Gestion.APA.-.Tiempos.de.respuesta_0.3.38_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGpBSnVDREJNb1psL0RQTTk3WXlacC9OTmkzZ3hhTFN1cEhPYzVkbmJYOW4zdDdiUVFpeE1kQS9vNDhxN2c3ZER6M3Axdk9YWFQ2aDlxeDBwUnlRdndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTY5OTUzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM4X3g2NC1zZXR1cC5leGUKbkFON3FRS1V1UTJ0R0tMbjlVaDh4NlNtY1BKZTFWbVJxK2t2MnpRL2F5cFpGaVR4S1RxVWhzTnhWaUZ2Uk5nOU1tS3JlRUdvdFZKMjJFR3FZeTU3QkE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.38-local-09707d7/Gestion.APA.-.Tiempos.de.respuesta_0.3.38_x64-setup.exe"
     }
   }
 }
