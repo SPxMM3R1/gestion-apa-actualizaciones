@@ -1,15 +1,15 @@
 {
-  "version": "0.3.40",
-  "notes": "## [0.3.40] - 2026-08-20\n\n### Auditoría\n\n- Al pulsar una biopsia desde el detalle mensual, se abre directamente la vista amplia de auditoría del cómputo sin expandir una tarjeta intermedia.\n- Se conserva la información de procedencia, servicio y datos clínicos en la vista de auditoría.",
-  "pub_date": "2026-08-20T15:46:35.7141753Z",
+  "version": "0.3.41",
+  "notes": "## [0.3.41] - 2026-08-20\n\n### Interfaz\n\n- La columna `Promedio días` del rendimiento mensual queda al final de las métricas, después de `Vencidas`.",
+  "pub_date": "2026-08-20T16:29:32.4214711Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZYcmVYSnFSWHdmS2kzcm5ZOTgwaUNtODlmNSsrL3ByNG9uSTF2UU02anZ1aE80czRXMnBYc3pQRDhyUUZLcTBuZzg0dE1YQzIvb1dldjN0d3liYXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQwNzM3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQwX3g2NC1zZXR1cC5leGUKejRTYnh5RVkyZndRTTY2djc0b0N5RTMrREdFcGFRQlhGbGdXalNhN2xLWGpSa0RkOWE5ZUFvUTZ6SlloL2pJQ0FzOExIeWxGR1hBbEFCcjNvS2hGQlE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.40-local-1341982/Gestion.APA.-.Tiempos.de.respuesta_0.3.40_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBVaHVpcmZIaUF4WkpxemhlSWVwbjFYRjhSZFBqd3phaFhMSWtPdlNUOUNEU3MwTjZVKzF1Uk9TbE9ELyszRzdNUjJ0Nm5pT05BazZSZHJNdHIwRXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQzMzQzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQxX3g2NC1zZXR1cC5leGUKQ2NuS2xveHE5U0RsY2NWTW5HQTM2aDRnRHkycG5TN1gxOEpQaktPbnQyb1Zad21VRDE1ZXNxSTArMmREVDIrZDZtK2xuWmtwWVVaL2swZlh0Q1h1QWc9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.41-local-b8c7e14/Gestion.APA.-.Tiempos.de.respuesta_0.3.41_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZYcmVYSnFSWHdmS2kzcm5ZOTgwaUNtODlmNSsrL3ByNG9uSTF2UU02anZ1aE80czRXMnBYc3pQRDhyUUZLcTBuZzg0dE1YQzIvb1dldjN0d3liYXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQwNzM3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQwX3g2NC1zZXR1cC5leGUKejRTYnh5RVkyZndRTTY2djc0b0N5RTMrREdFcGFRQlhGbGdXalNhN2xLWGpSa0RkOWE5ZUFvUTZ6SlloL2pJQ0FzOExIeWxGR1hBbEFCcjNvS2hGQlE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.40-local-1341982/Gestion.APA.-.Tiempos.de.respuesta_0.3.40_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBVaHVpcmZIaUF4WkpxemhlSWVwbjFYRjhSZFBqd3phaFhMSWtPdlNUOUNEU3MwTjZVKzF1Uk9TbE9ELyszRzdNUjJ0Nm5pT05BazZSZHJNdHIwRXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQzMzQzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQxX3g2NC1zZXR1cC5leGUKQ2NuS2xveHE5U0RsY2NWTW5HQTM2aDRnRHkycG5TN1gxOEpQaktPbnQyb1Zad21VRDE1ZXNxSTArMmREVDIrZDZtK2xuWmtwWVVaL2swZlh0Q1h1QWc9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.41-local-b8c7e14/Gestion.APA.-.Tiempos.de.respuesta_0.3.41_x64-setup.exe"
     }
   }
 }
