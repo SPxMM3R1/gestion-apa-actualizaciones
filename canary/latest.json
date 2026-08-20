@@ -1,15 +1,15 @@
 {
-  "version": "0.3.39",
-  "notes": "## [0.3.39] - 2026-08-19\n\n### Fuentes de datos\n\n- Se agrega una caché local de la estadística procesada para conservar la última información disponible cuando el Excel vinculado no responde.\n- Al restablecerse la conexión, la aplicación vuelve a consultar y actualiza automáticamente la estadística vinculada.",
-  "pub_date": "2026-08-19T20:19:07.9860569Z",
+  "version": "0.3.40",
+  "notes": "## [0.3.40] - 2026-08-20\n\n### Auditoría\n\n- Al pulsar una biopsia desde el detalle mensual, se abre directamente la vista amplia de auditoría del cómputo sin expandir una tarjeta intermedia.\n- Se conserva la información de procedencia, servicio y datos clínicos en la vista de auditoría.",
+  "pub_date": "2026-08-20T15:46:35.7141753Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZEd3VwZVdwOVNxemNYL3VmL2VXV1RHQ2M0UWNPSnBMMEJtWlF3UEpnNVU2OFBqbXQzVkxTclROZFJPcC92MzFUdjJFTEdudkw3UGdQcTIvWmltUndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTcwNjk3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM5X3g2NC1zZXR1cC5leGUKVlRYR0d6VVp3YkN0bkdwYi9XNFRHK0J1ajVncFBpeEtKYTJxalZNWVRvMXpDL2VWRkNyQVNlSHpJZXF6cUlQNXF2d3dnNnE3ZTZQSWpiTzRJRzhJQlE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.39-local-302c806/Gestion.APA.-.Tiempos.de.respuesta_0.3.39_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZYcmVYSnFSWHdmS2kzcm5ZOTgwaUNtODlmNSsrL3ByNG9uSTF2UU02anZ1aE80czRXMnBYc3pQRDhyUUZLcTBuZzg0dE1YQzIvb1dldjN0d3liYXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQwNzM3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQwX3g2NC1zZXR1cC5leGUKejRTYnh5RVkyZndRTTY2djc0b0N5RTMrREdFcGFRQlhGbGdXalNhN2xLWGpSa0RkOWE5ZUFvUTZ6SlloL2pJQ0FzOExIeWxGR1hBbEFCcjNvS2hGQlE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.40-local-1341982/Gestion.APA.-.Tiempos.de.respuesta_0.3.40_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZEd3VwZVdwOVNxemNYL3VmL2VXV1RHQ2M0UWNPSnBMMEJtWlF3UEpnNVU2OFBqbXQzVkxTclROZFJPcC92MzFUdjJFTEdudkw3UGdQcTIvWmltUndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTcwNjk3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM5X3g2NC1zZXR1cC5leGUKVlRYR0d6VVp3YkN0bkdwYi9XNFRHK0J1ajVncFBpeEtKYTJxalZNWVRvMXpDL2VWRkNyQVNlSHpJZXF6cUlQNXF2d3dnNnE3ZTZQSWpiTzRJRzhJQlE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.39-local-302c806/Gestion.APA.-.Tiempos.de.respuesta_0.3.39_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZYcmVYSnFSWHdmS2kzcm5ZOTgwaUNtODlmNSsrL3ByNG9uSTF2UU02anZ1aE80czRXMnBYc3pQRDhyUUZLcTBuZzg0dE1YQzIvb1dldjN0d3liYXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQwNzM3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQwX3g2NC1zZXR1cC5leGUKejRTYnh5RVkyZndRTTY2djc0b0N5RTMrREdFcGFRQlhGbGdXalNhN2xLWGpSa0RkOWE5ZUFvUTZ6SlloL2pJQ0FzOExIeWxGR1hBbEFCcjNvS2hGQlE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.40-local-1341982/Gestion.APA.-.Tiempos.de.respuesta_0.3.40_x64-setup.exe"
     }
   }
 }
