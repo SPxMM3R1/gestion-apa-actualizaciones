@@ -1,15 +1,15 @@
 {
-  "version": "0.3.41",
-  "notes": "## [0.3.41] - 2026-08-20\n\n### Interfaz\n\n- La columna `Promedio días` del rendimiento mensual queda al final de las métricas, después de `Vencidas`.",
-  "pub_date": "2026-08-20T16:29:32.4214711Z",
+  "version": "0.3.42",
+  "notes": "## [0.3.42] - 2026-09-01\n\n### Informes PDF e instalador\n\n- Los PDF cuyo nombre contiene solo el correlativo (por ejemplo, `991.pdf`) se asocian al folio correspondiente, muestran una alerta informativa por folio incompleto y vuelven a participar en la alerta de informe sin fecha de validación.\n- Durante una actualización, el instalador conserva los accesos directos existentes y no recrea los que el usuario haya eliminado.",
+  "pub_date": "2026-09-01T16:29:03.5024299Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBVaHVpcmZIaUF4WkpxemhlSWVwbjFYRjhSZFBqd3phaFhMSWtPdlNUOUNEU3MwTjZVKzF1Uk9TbE9ELyszRzdNUjJ0Nm5pT05BazZSZHJNdHIwRXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQzMzQzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQxX3g2NC1zZXR1cC5leGUKQ2NuS2xveHE5U0RsY2NWTW5HQTM2aDRnRHkycG5TN1gxOEpQaktPbnQyb1Zad21VRDE1ZXNxSTArMmREVDIrZDZtK2xuWmtwWVVaL2swZlh0Q1h1QWc9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.41-local-b8c7e14/Gestion.APA.-.Tiempos.de.respuesta_0.3.41_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNEUkJRZ2R1Y0wxOHRuWmJWVW1iSFMzZUhjNndZaUhyYnJqalMzUVZOU0poOTFrN1hYTHkrWnJiVkN2RHl5eVJ1c2RGQjVqUkN5RFhSYUdQSlVkeWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjgwMDMwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQyX3g2NC1zZXR1cC5leGUKdTBHdnA1LzhsOUxpNWNBS1NqaXZrU0xSeUhNZFJIK0piQTk5Y1BhSUdzcy85SXVkM09PMmtHdmEwTU9FRFVkYnl1MUt4djVTczVCMzAvZ0NCNUpWQlE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.42-local-f4f5a74/Gestion.APA.-.Tiempos.de.respuesta_0.3.42_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBVaHVpcmZIaUF4WkpxemhlSWVwbjFYRjhSZFBqd3phaFhMSWtPdlNUOUNEU3MwTjZVKzF1Uk9TbE9ELyszRzdNUjJ0Nm5pT05BazZSZHJNdHIwRXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQzMzQzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQxX3g2NC1zZXR1cC5leGUKQ2NuS2xveHE5U0RsY2NWTW5HQTM2aDRnRHkycG5TN1gxOEpQaktPbnQyb1Zad21VRDE1ZXNxSTArMmREVDIrZDZtK2xuWmtwWVVaL2swZlh0Q1h1QWc9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.41-local-b8c7e14/Gestion.APA.-.Tiempos.de.respuesta_0.3.41_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNEUkJRZ2R1Y0wxOHRuWmJWVW1iSFMzZUhjNndZaUhyYnJqalMzUVZOU0poOTFrN1hYTHkrWnJiVkN2RHl5eVJ1c2RGQjVqUkN5RFhSYUdQSlVkeWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjgwMDMwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQyX3g2NC1zZXR1cC5leGUKdTBHdnA1LzhsOUxpNWNBS1NqaXZrU0xSeUhNZFJIK0piQTk5Y1BhSUdzcy85SXVkM09PMmtHdmEwTU9FRFVkYnl1MUt4djVTczVCMzAvZ0NCNUpWQlE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/canary-v0.3.42-local-f4f5a74/Gestion.APA.-.Tiempos.de.respuesta_0.3.42_x64-setup.exe"
     }
   }
 }
