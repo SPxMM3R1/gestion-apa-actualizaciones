@@ -1,15 +1,15 @@
 {
-  "version": "0.3.37",
-  "notes": "## [0.3.37] - 2026-08-13\n\n### ImpresiÃ³n y documentos PDF\n\n- La impresiÃ³n masiva consolida los informes seleccionados en un Ãºnico PDF temporal, respetando el orden del carrito y sin modificar los archivos originales.\n- Se incorporÃ³ una lectura tolerante para informes PDF con tablas de referencias daÃ±adas, manteniendo el documento fuente intacto.\n- La apertura e impresiÃ³n usan la aplicaciÃ³n PDF predeterminada de Windows cuando el verbo de impresiÃ³n no estÃ¡ disponible.\n\n### Interfaz\n\n- Se ocultaron las barras de desplazamiento redundantes de la interfaz, manteniendo el desplazamiento funcional.\n- La barra del panel de verificaciÃ³n OCR permanece visible para facilitar la revisiÃ³n del contenido del informe.",
-  "pub_date": "2026-08-13T17:55:28.6832091Z",
+  "version": "0.3.42",
+  "notes": "## [0.3.42] - 2026-09-01\n\n### Informes PDF e instalador\n\n- Los PDF cuyo nombre contiene solo el correlativo (por ejemplo, `991.pdf`) se asocian al folio correspondiente, muestran una alerta informativa por folio incompleto y vuelven a participar en la alerta de informe sin fecha de validación.\n- Durante una actualización, el instalador conserva los accesos directos existentes y no recrea los que el usuario haya eliminado.",
+  "pub_date": "2026-09-01T16:29:03.5024299Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG1tZXJMbjdlMElOSEZLais0VldnRHpJK3BOb3lkOXdCOENIQUo3OUVHajh5WjhJUGdaRWtqbGRrNnF1bWtWazNzcG9EUElRTUhuSmIvN3hCVUZBYkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjQzNTg3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM3X3g2NC1zZXR1cC5leGUKdTFNVU95YytUUHgyYXMzM2N5SEE3bDNYb21wajFFWEdOUWEzbjVBbkVjNmxLbE5QbVhJWHZJSjZucHh6Skxrb2loampnU2grSnZYVWlGaHIvZ3QyRHc9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.37/Gestion.APA.-.Tiempos.de.respuesta_0.3.37_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNEUkJRZ2R1Y0wxOHRuWmJWVW1iSFMzZUhjNndZaUhyYnJqalMzUVZOU0poOTFrN1hYTHkrWnJiVkN2RHl5eVJ1c2RGQjVqUkN5RFhSYUdQSlVkeWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjgwMDMwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQyX3g2NC1zZXR1cC5leGUKdTBHdnA1LzhsOUxpNWNBS1NqaXZrU0xSeUhNZFJIK0piQTk5Y1BhSUdzcy85SXVkM09PMmtHdmEwTU9FRFVkYnl1MUt4djVTczVCMzAvZ0NCNUpWQlE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.42/Gestion.APA.-.Tiempos.de.respuesta_0.3.42_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG1tZXJMbjdlMElOSEZLais0VldnRHpJK3BOb3lkOXdCOENIQUo3OUVHajh5WjhJUGdaRWtqbGRrNnF1bWtWazNzcG9EUElRTUhuSmIvN3hCVUZBYkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjQzNTg3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjM3X3g2NC1zZXR1cC5leGUKdTFNVU95YytUUHgyYXMzM2N5SEE3bDNYb21wajFFWEdOUWEzbjVBbkVjNmxLbE5QbVhJWHZJSjZucHh6Skxrb2loampnU2grSnZYVWlGaHIvZ3QyRHc9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.37/Gestion.APA.-.Tiempos.de.respuesta_0.3.37_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNEUkJRZ2R1Y0wxOHRuWmJWVW1iSFMzZUhjNndZaUhyYnJqalMzUVZOU0poOTFrN1hYTHkrWnJiVkN2RHl5eVJ1c2RGQjVqUkN5RFhSYUdQSlVkeWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjgwMDMwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQyX3g2NC1zZXR1cC5leGUKdTBHdnA1LzhsOUxpNWNBS1NqaXZrU0xSeUhNZFJIK0piQTk5Y1BhSUdzcy85SXVkM09PMmtHdmEwTU9FRFVkYnl1MUt4djVTczVCMzAvZ0NCNUpWQlE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.42/Gestion.APA.-.Tiempos.de.respuesta_0.3.42_x64-setup.exe"
     }
   }
 }
