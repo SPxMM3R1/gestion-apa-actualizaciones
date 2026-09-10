@@ -1,15 +1,15 @@
 {
-  "version": "0.3.47",
-  "notes": "### Estadística OCR\n\n- Los tiempos de recepción a macro y de macro a entrega de lámina cuentan días hábiles transcurridos desde el día siguiente al primer hito.\n- Un mismo día cuenta como `0`; un intervalo de viernes a lunes cuenta como `1`.\n- Los KPI OCR y sus promedios aplican la nueva convención sin modificar el conteo histórico de vencimiento de la biopsia.",
-  "pub_date": "2026-09-10T11:12:54.441Z",
+  "version": "0.3.48",
+  "notes": "### Auditoría\n\n- La auditoría ordena las fechas como toma de muestra, recepción, macro, entrega de lámina y validación.\n- La Fecha límite se muestra como la primera tarjeta junto a Días hábiles y Estado.",
+  "pub_date": "2026-09-10T15:43:51.063Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBCbVF0VFo5dkxLRkMvOVVhVnp2MWJHZDJPYStEYzZQenh2eVd2UWdWK2pUTlhzMmtBN2ptVnJ6djVSZmNncWtGbFRodjEwMnJ3K1g2SnVvYUprUndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDM4NzcwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ3X3g2NC1zZXR1cC5leGUKeGxRayt0b2I0anhjV24yaElwNDZmMzh4Y3lSUmcyaW5Rb3Z5NUtMTnJyRnJOTEVZOE9UcXQ3TVVtUzl1QWtjVUwxNGowOUVRVzNEcXJTcmV1V3dFQlE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/554851850"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5GWGt6WHZBb1F4OUY0QW8vdThNSGxUcC9DeGtlazFockpGQzFzMEpNRWFHUGtpTHB1cFVGUjNsOG4yaU5XbmJjNGR6TFNObzkxNENNQ0xyV1pwZXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDU1MDI3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ4X3g2NC1zZXR1cC5leGUKY0U1VjNoUjVxNGd4eGFhY3JMUmp2MHd1NzhRalFZbnIvV2RrUFVUcFkxbXVMa3dpdXpZV1hXZThwakU5S01RSStzZTVUeGVraER3S1FmbDArc3NiQXc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/555301717"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBCbVF0VFo5dkxLRkMvOVVhVnp2MWJHZDJPYStEYzZQenh2eVd2UWdWK2pUTlhzMmtBN2ptVnJ6djVSZmNncWtGbFRodjEwMnJ3K1g2SnVvYUprUndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDM4NzcwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ3X3g2NC1zZXR1cC5leGUKeGxRayt0b2I0anhjV24yaElwNDZmMzh4Y3lSUmcyaW5Rb3Z5NUtMTnJyRnJOTEVZOE9UcXQ3TVVtUzl1QWtjVUwxNGowOUVRVzNEcXJTcmV1V3dFQlE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/554851850"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5GWGt6WHZBb1F4OUY0QW8vdThNSGxUcC9DeGtlazFockpGQzFzMEpNRWFHUGtpTHB1cFVGUjNsOG4yaU5XbmJjNGR6TFNObzkxNENNQ0xyV1pwZXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDU1MDI3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ4X3g2NC1zZXR1cC5leGUKY0U1VjNoUjVxNGd4eGFhY3JMUmp2MHd1NzhRalFZbnIvV2RrUFVUcFkxbXVMa3dpdXpZV1hXZThwakU5S01RSStzZTVUeGVraER3S1FmbDArc3NiQXc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/555301717"
     }
   }
 }
