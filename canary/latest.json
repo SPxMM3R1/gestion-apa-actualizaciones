@@ -1,15 +1,15 @@
 {
-  "version": "0.3.45",
-  "notes": "### Consulta masiva\n\n- Se agrega un filtro opcional por fecha de recepción con límites Desde, Hasta o un rango inclusivo.\n- La plantilla impresa por doctor conserva el rango de fechas aplicado en su subtítulo.",
-  "pub_date": "2026-09-09T17:30:14.744Z",
+  "version": "0.3.46",
+  "notes": "### Estadística OCR\n\n- Se integran las fechas de macro y entrega de láminas en el detalle de cada biopsia y en los KPI de promedios de días hábiles.\n- Las biopsias de `Labcys`, `Laboratorio Cys/CyS` y `CyS` se excluyen de estas nuevas estadísticas únicamente por el campo `Patólogo`.\n- Las fechas faltantes de los demás patólogos se registran en un archivo de avisos junto al Excel OCR, sin generar una alerta general.\n- `Lapsis` y `Laboratorio CIS` vuelven a procesarse como patólogos regulares.",
+  "pub_date": "2026-09-10T00:39:10.549Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHFhZmdsQUFuTE9iT1lGVE91bHJ5bzViMjdETDhSQk14Wm5zQjhHeDR4MFhXeGoyZnVQRFQ1cjNNbTdLL3NUTXpiTWRrOFF5NGFEVFVJeGlzMU44c3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTc1MDExCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ1X3g2NC1zZXR1cC5leGUKSncvYjRxUzVKbHJaQXhDejVuS1BucjdYMlRCQ1hVT2RlVGJjb3hOWkE5bHF1WEtoZXVRU3ZhQU9JaFNSQXQvL1lBZWpETytKeE9CYldweS8vbjM1QlE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/553240844"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGptZkVSUUFWbUU2OUQwMisvbzVxNUFLVGZUVHNoc2Q4MnBaWGcwc0ZRcmlOVWF6QUhrOThKQldxdzE2YUk2NDBJYUZ2QjdxSW0wOE1pbkwrbDBwU0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAwNzQ3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ2X3g2NC1zZXR1cC5leGUKNHpOQlFFSHQrdDkvSTFpbWRjS3h1MFBtaWkyUW5BT1g5b05TZHNXT2MwV28vQ2xsdTNWLzhPV0hVamFHaktQRnR5dzluV0ovL29jS0ZYeUV0bmJVQ0E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/553899138"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHFhZmdsQUFuTE9iT1lGVE91bHJ5bzViMjdETDhSQk14Wm5zQjhHeDR4MFhXeGoyZnVQRFQ1cjNNbTdLL3NUTXpiTWRrOFF5NGFEVFVJeGlzMU44c3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTc1MDExCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ1X3g2NC1zZXR1cC5leGUKSncvYjRxUzVKbHJaQXhDejVuS1BucjdYMlRCQ1hVT2RlVGJjb3hOWkE5bHF1WEtoZXVRU3ZhQU9JaFNSQXQvL1lBZWpETytKeE9CYldweS8vbjM1QlE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/553240844"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGptZkVSUUFWbUU2OUQwMisvbzVxNUFLVGZUVHNoc2Q4MnBaWGcwc0ZRcmlOVWF6QUhrOThKQldxdzE2YUk2NDBJYUZ2QjdxSW0wOE1pbkwrbDBwU0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAwNzQ3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ2X3g2NC1zZXR1cC5leGUKNHpOQlFFSHQrdDkvSTFpbWRjS3h1MFBtaWkyUW5BT1g5b05TZHNXT2MwV28vQ2xsdTNWLzhPV0hVamFHaktQRnR5dzluV0ovL29jS0ZYeUV0bmJVQ0E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/553899138"
     }
   }
 }
