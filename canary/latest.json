@@ -1,15 +1,15 @@
 {
-  "version": "0.3.46",
-  "notes": "### Estadística OCR\n\n- Se integran las fechas de macro y entrega de láminas en el detalle de cada biopsia y en los KPI de promedios de días hábiles.\n- Las biopsias de `Labcys`, `Laboratorio Cys/CyS` y `CyS` se excluyen de estas nuevas estadísticas únicamente por el campo `Patólogo`.\n- Las fechas faltantes de los demás patólogos se registran en un archivo de avisos junto al Excel OCR, sin generar una alerta general.\n- `Lapsis` y `Laboratorio CIS` vuelven a procesarse como patólogos regulares.",
-  "pub_date": "2026-09-10T00:39:10.549Z",
+  "version": "0.3.47",
+  "notes": "### Estadística OCR\n\n- Los tiempos de recepción a macro y de macro a entrega de lámina cuentan días hábiles transcurridos desde el día siguiente al primer hito.\n- Un mismo día cuenta como `0`; un intervalo de viernes a lunes cuenta como `1`.\n- Los KPI OCR y sus promedios aplican la nueva convención sin modificar el conteo histórico de vencimiento de la biopsia.",
+  "pub_date": "2026-09-10T11:12:54.441Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGptZkVSUUFWbUU2OUQwMisvbzVxNUFLVGZUVHNoc2Q4MnBaWGcwc0ZRcmlOVWF6QUhrOThKQldxdzE2YUk2NDBJYUZ2QjdxSW0wOE1pbkwrbDBwU0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAwNzQ3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ2X3g2NC1zZXR1cC5leGUKNHpOQlFFSHQrdDkvSTFpbWRjS3h1MFBtaWkyUW5BT1g5b05TZHNXT2MwV28vQ2xsdTNWLzhPV0hVamFHaktQRnR5dzluV0ovL29jS0ZYeUV0bmJVQ0E9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/553899138"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBCbVF0VFo5dkxLRkMvOVVhVnp2MWJHZDJPYStEYzZQenh2eVd2UWdWK2pUTlhzMmtBN2ptVnJ6djVSZmNncWtGbFRodjEwMnJ3K1g2SnVvYUprUndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDM4NzcwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ3X3g2NC1zZXR1cC5leGUKeGxRayt0b2I0anhjV24yaElwNDZmMzh4Y3lSUmcyaW5Rb3Z5NUtMTnJyRnJOTEVZOE9UcXQ3TVVtUzl1QWtjVUwxNGowOUVRVzNEcXJTcmV1V3dFQlE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/554851850"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGptZkVSUUFWbUU2OUQwMisvbzVxNUFLVGZUVHNoc2Q4MnBaWGcwc0ZRcmlOVWF6QUhrOThKQldxdzE2YUk2NDBJYUZ2QjdxSW0wOE1pbkwrbDBwU0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAwNzQ3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ2X3g2NC1zZXR1cC5leGUKNHpOQlFFSHQrdDkvSTFpbWRjS3h1MFBtaWkyUW5BT1g5b05TZHNXT2MwV28vQ2xsdTNWLzhPV0hVamFHaktQRnR5dzluV0ovL29jS0ZYeUV0bmJVQ0E9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/553899138"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBCbVF0VFo5dkxLRkMvOVVhVnp2MWJHZDJPYStEYzZQenh2eVd2UWdWK2pUTlhzMmtBN2ptVnJ6djVSZmNncWtGbFRodjEwMnJ3K1g2SnVvYUprUndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDM4NzcwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ3X3g2NC1zZXR1cC5leGUKeGxRayt0b2I0anhjV24yaElwNDZmMzh4Y3lSUmcyaW5Rb3Z5NUtMTnJyRnJOTEVZOE9UcXQ3TVVtUzl1QWtjVUwxNGowOUVRVzNEcXJTcmV1V3dFQlE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/554851850"
     }
   }
 }
