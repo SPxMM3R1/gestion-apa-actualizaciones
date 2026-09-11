@@ -1,15 +1,15 @@
 {
-  "version": "0.3.49",
-  "notes": "### Exportación PDF\n\n- Las exportaciones PDF de datos individuales incluyen siempre las columnas `Fecha de macro` y `Entrega de lámina`.\n- Cuando el OCR no informa una fecha, la columna se conserva y muestra `Sin informar`.",
-  "pub_date": "2026-09-10T15:54:15.903Z",
+  "version": "0.3.50",
+  "notes": "### Interfaz de búsqueda\n\n- Los resultados de búsqueda muestran un indicador rojo `PDF` junto al folio cuando existe un informe asociado.\n- El indicador se mantiene en el desplegable de sugerencias y en la tabla de coincidencias múltiples.",
+  "pub_date": "2026-09-11T13:30:07.369Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJCeHdKSlVmQlVVNWlxQmZXZ1VMTjdmTjlOM2RWUi9aRCtDcHN4Nno3YlRRcFNYOUVJWHBqK1NEZWtacGNmckRQR3I1cFJqMHdQM1JENFMydzhKTVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDU1NjUyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ5X3g2NC1zZXR1cC5leGUKK2dYcVBsa2UrRWFyd3VVckNmNm9qWEJIcHZ3S2dwd25YZnd3Yng3ZTRhUlg2cHZIN1FXYXRKQUk3dlBuOUpMd1A1T0JubGpoS1ZrYXp5dUk4K2dBQXc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/555319211"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHF2WWRTUks3UEdDSlV4VUxrUUZlSDRTTVFnZHFDdkJxRU5teUpUUE44ZmFRaFRCZk55YThRekM2NnMrL3AvQzdUOHRCbHlaYXlpL2NYVldxd1BpQmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTMzNDA0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUwX3g2NC1zZXR1cC5leGUKbmlmb21JTStMQ2RsMVlHcUV4K25Hd2xJN1JxbTVoN2dMUUIrNzZxRlo4eU5ocnJzNWdBeGU2eFFHczdadFB6VmQ1ODNjY0laMERKN2dEeHNoQnAyREE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/557307714"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJCeHdKSlVmQlVVNWlxQmZXZ1VMTjdmTjlOM2RWUi9aRCtDcHN4Nno3YlRRcFNYOUVJWHBqK1NEZWtacGNmckRQR3I1cFJqMHdQM1JENFMydzhKTVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDU1NjUyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQ5X3g2NC1zZXR1cC5leGUKK2dYcVBsa2UrRWFyd3VVckNmNm9qWEJIcHZ3S2dwd25YZnd3Yng3ZTRhUlg2cHZIN1FXYXRKQUk3dlBuOUpMd1A1T0JubGpoS1ZrYXp5dUk4K2dBQXc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/555319211"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHF2WWRTUks3UEdDSlV4VUxrUUZlSDRTTVFnZHFDdkJxRU5teUpUUE44ZmFRaFRCZk55YThRekM2NnMrL3AvQzdUOHRCbHlaYXlpL2NYVldxd1BpQmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTMzNDA0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUwX3g2NC1zZXR1cC5leGUKbmlmb21JTStMQ2RsMVlHcUV4K25Hd2xJN1JxbTVoN2dMUUIrNzZxRlo4eU5ocnJzNWdBeGU2eFFHczdadFB6VmQ1ODNjY0laMERKN2dEeHNoQnAyREE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/557307714"
     }
   }
 }
