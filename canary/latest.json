@@ -1,15 +1,15 @@
 {
-  "version": "0.3.51",
-  "notes": "### Estadística OCR\n\n- Se elimina el aviso resumen de entregas OCR de la pantalla principal.\n- Los KPI de recepción a macro y de macro a entrega de lámina solo aparecen cuando el Excel OCR está cargado.\n- La auditoría muestra las nuevas fechas únicamente mientras la fuente OCR está disponible, evitando presentar datos como faltantes cuando el archivo no está vinculado.",
-  "pub_date": "2026-09-11T13:53:47.137Z",
+  "version": "0.3.52",
+  "notes": "### Interfaz\n\n- La grilla de KPI vuelve a su distribución histórica de cinco columnas cuando el Excel OCR no está vinculado.\n- Las dos métricas OCR adicionales conservan su distribución de siete columnas únicamente mientras la fuente de entregas está disponible.",
+  "pub_date": "2026-09-11T15:56:03.534Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5hS0p5cGVvQ2toVmloSmM2cDY5elpnakhLMy9JbWtCTDNzUEQwbDRZeEpTWXVHbEd3N0lROXNzVE1YbXdhV2x1K1hoZjM0MUJibVpOb2pPU0JOWXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTM0ODI0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUxX3g2NC1zZXR1cC5leGUKYlF3UDF5c1FGb09rMWJ5dFpnbUIrWkRCZjFxak1NNElOOGYxOUkrNHFUUDMwa2xvQ1Z6dTRNQzFHMm1RdmVmUkNCWGsxMWhJOTlIT2t6eG1zT0hJQkE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/557346131"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHYxbXhGWlpzOWFQbm53aDduaFhraXdvTG05Y3lRdjlwUHkzaWRmSjgyVjRPNXRaM3pmd21GRjQ1YW1SMXdybzJ5WktFdjMrYW5FQmw3bWhlbEhEWWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQyMTYwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUyX3g2NC1zZXR1cC5leGUKaWFDNWFDNmZkNXJudzBqbFBtUCtObkNwbi8wUWJESmI5SFdQQnpNOU5ZMk80SHpncU5WRWN3ajhWbG9ad0JPVm5wMElITDNyUUk3SDNCSkJPbXdsQVE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/557547787"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5hS0p5cGVvQ2toVmloSmM2cDY5elpnakhLMy9JbWtCTDNzUEQwbDRZeEpTWXVHbEd3N0lROXNzVE1YbXdhV2x1K1hoZjM0MUJibVpOb2pPU0JOWXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTM0ODI0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUxX3g2NC1zZXR1cC5leGUKYlF3UDF5c1FGb09rMWJ5dFpnbUIrWkRCZjFxak1NNElOOGYxOUkrNHFUUDMwa2xvQ1Z6dTRNQzFHMm1RdmVmUkNCWGsxMWhJOTlIT2t6eG1zT0hJQkE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/557346131"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHYxbXhGWlpzOWFQbm53aDduaFhraXdvTG05Y3lRdjlwUHkzaWRmSjgyVjRPNXRaM3pmd21GRjQ1YW1SMXdybzJ5WktFdjMrYW5FQmw3bWhlbEhEWWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQyMTYwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUyX3g2NC1zZXR1cC5leGUKaWFDNWFDNmZkNXJudzBqbFBtUCtObkNwbi8wUWJESmI5SFdQQnpNOU5ZMk80SHpncU5WRWN3ajhWbG9ad0JPVm5wMElITDNyUUk3SDNCSkJPbXdsQVE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/557547787"
     }
   }
 }
