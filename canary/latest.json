@@ -1,15 +1,15 @@
 {
-  "version": "0.3.52",
-  "notes": "### Interfaz\n\n- La grilla de KPI vuelve a su distribución histórica de cinco columnas cuando el Excel OCR no está vinculado.\n- Las dos métricas OCR adicionales conservan su distribución de siete columnas únicamente mientras la fuente de entregas está disponible.",
-  "pub_date": "2026-09-11T15:56:03.534Z",
+  "version": "0.3.53",
+  "notes": "### Descarga masiva\n\n- Los RUT con ceros iniciales en el Excel se normalizan igual que el RUT ingresado en la búsqueda.\n- La descarga masiva puede resolver correctamente casos como `5018267-3` aunque el registro esté guardado como `05.018.267-3`.",
+  "pub_date": "2026-09-23T17:34:44.999Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHYxbXhGWlpzOWFQbm53aDduaFhraXdvTG05Y3lRdjlwUHkzaWRmSjgyVjRPNXRaM3pmd21GRjQ1YW1SMXdybzJ5WktFdjMrYW5FQmw3bWhlbEhEWWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQyMTYwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUyX3g2NC1zZXR1cC5leGUKaWFDNWFDNmZkNXJudzBqbFBtUCtObkNwbi8wUWJESmI5SFdQQnpNOU5ZMk80SHpncU5WRWN3ajhWbG9ad0JPVm5wMElITDNyUUk3SDNCSkJPbXdsQVE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/557547787"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5BMjBHdmRXamtrYXQ3LzNzc2p6L1NCbGJUQnAzS0NWYkxmcXZyMWxHQU9nMFVmakJQOGMwT05YWmgrTC9aUkVzbmZ1U1dtMitqbGQybFhOMHRTbEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg0ODgyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTMKZDJYZkozTWpwME9NY2JKaG9Weis0UFdSM1Q0RmZwQkpJQ0NsNjlTUWsrYXE1NHZvaUNuMEF3eGdrancwYkhyeGExSjd4djg5c29samRiRFBiQmlBQmc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/584274254"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHYxbXhGWlpzOWFQbm53aDduaFhraXdvTG05Y3lRdjlwUHkzaWRmSjgyVjRPNXRaM3pmd21GRjQ1YW1SMXdybzJ5WktFdjMrYW5FQmw3bWhlbEhEWWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQyMTYwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUyX3g2NC1zZXR1cC5leGUKaWFDNWFDNmZkNXJudzBqbFBtUCtObkNwbi8wUWJESmI5SFdQQnpNOU5ZMk80SHpncU5WRWN3ajhWbG9ad0JPVm5wMElITDNyUUk3SDNCSkJPbXdsQVE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/557547787"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5BMjBHdmRXamtrYXQ3LzNzc2p6L1NCbGJUQnAzS0NWYkxmcXZyMWxHQU9nMFVmakJQOGMwT05YWmgrTC9aUkVzbmZ1U1dtMitqbGQybFhOMHRTbEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg0ODgyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTMKZDJYZkozTWpwME9NY2JKaG9Weis0UFdSM1Q0RmZwQkpJQ0NsNjlTUWsrYXE1NHZvaUNuMEF3eGdrancwYkhyeGExSjd4djg5c29samRiRFBiQmlBQmc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/584274254"
     }
   }
 }
