@@ -1,15 +1,15 @@
 {
-  "version": "0.3.53",
-  "notes": "### Descarga masiva\n\n- Los RUT con ceros iniciales en el Excel se normalizan igual que el RUT ingresado en la búsqueda.\n- La descarga masiva puede resolver correctamente casos como `5018267-3` aunque el registro esté guardado como `05.018.267-3`.",
-  "pub_date": "2026-09-23T17:34:44.999Z",
+  "version": "0.3.54",
+  "notes": "### Historial\n\n- El menú incorpora un historial local de las últimas 10 búsquedas y biopsias abiertas.\n- El historial permite repetir una búsqueda, volver a abrir un folio y borrar sus entradas.",
+  "pub_date": "2026-09-29T13:54:56.057Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5BMjBHdmRXamtrYXQ3LzNzc2p6L1NCbGJUQnAzS0NWYkxmcXZyMWxHQU9nMFVmakJQOGMwT05YWmgrTC9aUkVzbmZ1U1dtMitqbGQybFhOMHRTbEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg0ODgyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTMKZDJYZkozTWpwME9NY2JKaG9Weis0UFdSM1Q0RmZwQkpJQ0NsNjlTUWsrYXE1NHZvaUNuMEF3eGdrancwYkhyeGExSjd4djg5c29samRiRFBiQmlBQmc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/584274254"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNzbFduVnd2TFJNRURyc3ovd2pmNlg0dEZqN2V5U1JqVS9EZ2k2VDFxVnNaNzFqbG5oUFlLYWdUQ3I4RmlPMlBGd0ZnazQ1WFRXU0R2VlVXNm5ON3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjkwMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTQKTlJ2N3VPUVVFb1E1cVRvL2M3eUx2LzVkWXZ2dXJ5RVdhaUE3RWR6Q1pxNTNDN3hMaXRTUzYzaFlleFhRYWQyWVJwTG5EalBKQU9meUR2SitkTFNORFE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/598348298"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5BMjBHdmRXamtrYXQ3LzNzc2p6L1NCbGJUQnAzS0NWYkxmcXZyMWxHQU9nMFVmakJQOGMwT05YWmgrTC9aUkVzbmZ1U1dtMitqbGQybFhOMHRTbEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg0ODgyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjUzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTMKZDJYZkozTWpwME9NY2JKaG9Weis0UFdSM1Q0RmZwQkpJQ0NsNjlTUWsrYXE1NHZvaUNuMEF3eGdrancwYkhyeGExSjd4djg5c29samRiRFBiQmlBQmc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/584274254"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNzbFduVnd2TFJNRURyc3ovd2pmNlg0dEZqN2V5U1JqVS9EZ2k2VDFxVnNaNzFqbG5oUFlLYWdUQ3I4RmlPMlBGd0ZnazQ1WFRXU0R2VlVXNm5ON3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjkwMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTQKTlJ2N3VPUVVFb1E1cVRvL2M3eUx2LzVkWXZ2dXJ5RVdhaUE3RWR6Q1pxNTNDN3hMaXRTUzYzaFlleFhRYWQyWVJwTG5EalBKQU9meUR2SitkTFNORFE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/598348298"
     }
   }
 }
