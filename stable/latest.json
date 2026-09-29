@@ -1,15 +1,15 @@
 {
-  "version": "0.3.42",
-  "notes": "## [0.3.42] - 2026-09-01\n\n### Informes PDF e instalador\n\n- Los PDF cuyo nombre contiene solo el correlativo (por ejemplo, `991.pdf`) se asocian al folio correspondiente, muestran una alerta informativa por folio incompleto y vuelven a participar en la alerta de informe sin fecha de validación.\n- Durante una actualización, el instalador conserva los accesos directos existentes y no recrea los que el usuario haya eliminado.",
-  "pub_date": "2026-09-01T16:29:03.5024299Z",
+  "version": "0.3.54",
+  "notes": "### Historial\n\n- El menú incorpora un historial local de las últimas 10 búsquedas y biopsias abiertas.\n- El historial permite repetir una búsqueda, volver a abrir un folio y borrar sus entradas.",
+  "pub_date": "2026-09-29T13:54:56.057Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNEUkJRZ2R1Y0wxOHRuWmJWVW1iSFMzZUhjNndZaUhyYnJqalMzUVZOU0poOTFrN1hYTHkrWnJiVkN2RHl5eVJ1c2RGQjVqUkN5RFhSYUdQSlVkeWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjgwMDMwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQyX3g2NC1zZXR1cC5leGUKdTBHdnA1LzhsOUxpNWNBS1NqaXZrU0xSeUhNZFJIK0piQTk5Y1BhSUdzcy85SXVkM09PMmtHdmEwTU9FRFVkYnl1MUt4djVTczVCMzAvZ0NCNUpWQlE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.42/Gestion.APA.-.Tiempos.de.respuesta_0.3.42_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNzbFduVnd2TFJNRURyc3ovd2pmNlg0dEZqN2V5U1JqVS9EZ2k2VDFxVnNaNzFqbG5oUFlLYWdUQ3I4RmlPMlBGd0ZnazQ1WFRXU0R2VlVXNm5ON3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjkwMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTQKTlJ2N3VPUVVFb1E1cVRvL2M3eUx2LzVkWXZ2dXJ5RVdhaUE3RWR6Q1pxNTNDN3hMaXRTUzYzaFlleFhRYWQyWVJwTG5EalBKQU9meUR2SitkTFNORFE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.54/Gestion.APA.-.Tiempos.de.respuesta_0.3.54_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNEUkJRZ2R1Y0wxOHRuWmJWVW1iSFMzZUhjNndZaUhyYnJqalMzUVZOU0poOTFrN1hYTHkrWnJiVkN2RHl5eVJ1c2RGQjVqUkN5RFhSYUdQSlVkeWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjgwMDMwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjQyX3g2NC1zZXR1cC5leGUKdTBHdnA1LzhsOUxpNWNBS1NqaXZrU0xSeUhNZFJIK0piQTk5Y1BhSUdzcy85SXVkM09PMmtHdmEwTU9FRFVkYnl1MUt4djVTczVCMzAvZ0NCNUpWQlE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.42/Gestion.APA.-.Tiempos.de.respuesta_0.3.42_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNzbFduVnd2TFJNRURyc3ovd2pmNlg0dEZqN2V5U1JqVS9EZ2k2VDFxVnNaNzFqbG5oUFlLYWdUQ3I4RmlPMlBGd0ZnazQ1WFRXU0R2VlVXNm5ON3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjkwMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTQKTlJ2N3VPUVVFb1E1cVRvL2M3eUx2LzVkWXZ2dXJ5RVdhaUE3RWR6Q1pxNTNDN3hMaXRTUzYzaFlleFhRYWQyWVJwTG5EalBKQU9meUR2SitkTFNORFE9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.54/Gestion.APA.-.Tiempos.de.respuesta_0.3.54_x64-setup.exe"
     }
   }
 }
