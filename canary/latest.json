@@ -1,15 +1,15 @@
 {
-  "version": "0.3.55",
-  "notes": "### Seguimiento de biopsias\n\n- Se agregan las vistas Oncología y Biopsias GES bajo Historial, cada una leyendo únicamente su pestaña de la planilla compartida.\n- Oncología cruza los RUT con la estadística local y permite descargar informes PDF ya vinculados.\n- Biopsias GES muestra los folios internos asociados a cada RUT y advierte cuando hay varios para evitar asignar uno a la fila incorrecta.\n- La planilla compartida se consulta en modo de solo lectura; no se modifica ni se cargan informes a Drive.",
-  "pub_date": "2026-10-19T13:21:27.553Z",
+  "version": "0.3.56",
+  "notes": "### Seguimiento de biopsias\n\n- Biopsias GES destaca el folio interno y lo muestra antes de los datos de la solicitud.\n- Oncología muestra únicamente biopsias con informe PDF vinculado cuya toma de muestra es igual o posterior a la fecha de biopsia indicada en la planilla.\n- Los informes oncológicos listos pueden seleccionarse y descargarse directamente desde la vista.",
+  "pub_date": "2026-10-19T13:56:11.657Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5IS3BVM2RTbEpPNzhwMEpxaG1mSjdhTVZoVzBMMldhVStnTTZPSWpVRlZFNXJseVhvb3laay9SY0xwSTNqa0xRUHNzcFVjdWlPSWRpejRmbkxOT3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE2MDg0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTUKNlJrUGZnVlJOTUhJWkJKVy94dkFaNG1ndDJhQTlDVU0vUmZrQi9PcC9hcWVRQ3hsRGJHelk3RFdQTi9IOWxIQjBCc29GdWRJOWtIeUhNOG1MSzJHREE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/656341632"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG9ncUNnWEN5UkVTVkpEVG9XbU5PaUVNNGp2ZHdpMndxTk9MUVdSQ01zMVpkbzZINkhhMVJFN3V2Z09FYlo1aWRyM0EyMWZneVUrS3hVV003NGlDaVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE4MTY3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTYKUHBFdWRkbmNIdWx2TGdpQWlIaXhoQ0h3NmIzN3cwbUIxM1BnZ2lQQjA0VGUxWC93QWJqbFcvQXF5aW9HTjZNZTFNTnZiVlBMSDVxQjZaeEZCSmd6Qnc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/656427801"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5IS3BVM2RTbEpPNzhwMEpxaG1mSjdhTVZoVzBMMldhVStnTTZPSWpVRlZFNXJseVhvb3laay9SY0xwSTNqa0xRUHNzcFVjdWlPSWRpejRmbkxOT3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE2MDg0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTUKNlJrUGZnVlJOTUhJWkJKVy94dkFaNG1ndDJhQTlDVU0vUmZrQi9PcC9hcWVRQ3hsRGJHelk3RFdQTi9IOWxIQjBCc29GdWRJOWtIeUhNOG1MSzJHREE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/656341632"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG9ncUNnWEN5UkVTVkpEVG9XbU5PaUVNNGp2ZHdpMndxTk9MUVdSQ01zMVpkbzZINkhhMVJFN3V2Z09FYlo1aWRyM0EyMWZneVUrS3hVV003NGlDaVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE4MTY3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTYKUHBFdWRkbmNIdWx2TGdpQWlIaXhoQ0h3NmIzN3cwbUIxM1BnZ2lQQjA0VGUxWC93QWJqbFcvQXF5aW9HTjZNZTFNTnZiVlBMSDVxQjZaeEZCSmd6Qnc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/656427801"
     }
   }
 }
