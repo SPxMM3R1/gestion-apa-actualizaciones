@@ -1,15 +1,15 @@
 {
-  "version": "0.3.59",
-  "notes": "### Resúmenes imprimibles de Oncología y GES\n\n- Oncología y Biopsias GES incorporan el botón Imprimir resumen, con el mismo formato de las exportaciones de biopsias por patólogo y una página nueva por profesional.\n- El resumen incluye toda la lista consultada, sin depender de la selección de PDF: nombre, RUT, folio, recepción, macro, entrega de láminas y días hábiles. Oncología indica si el informe PDF está disponible o pendiente; GES indica si existe resultado.\n- Se conservan las biopsias sin patólogo y las solicitudes sin folio o con nombres ambiguos, estas últimas en una sección final para revisión. Las coincidencias secundarias por nombre se identifican para verificar el RUT y los folios repetidos no se duplican.\n- Permite imprimir o guardar como PDF desde el diálogo habitual de la aplicación.",
-  "pub_date": "2026-10-20T13:37:01.842Z",
+  "version": "0.3.60",
+  "notes": "### Estado de informes en GES y Oncología\n\n- Biopsias GES consulta los PDF vinculados por folio y muestra el mismo estado que Oncología: Informe listo en verde o Pendiente de informe.\n- Los resúmenes imprimibles de ambas vistas comparten la columna Informe PDF, los mismos estados y colores. Se ajustan sus anchos para mantener el estado completo en una sola línea sin alterar las exportaciones de consulta masiva.\n- Se conserva el alcance de consulta de GES, sin agregar selección ni descarga de informes.",
+  "pub_date": "2026-10-20T19:36:55.291Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5SdU0vd0g4aGZLZnk0cEVRTTdOYlV2QTk5YXcvTjY1R2loNStsdThUQ3lhWVJQMG56Y1JIdWdYb29CRDVmdWkvdjZLK3IvZmQyMGdDeXFXNTFmclFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTAzNDE2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTkKWlg1ZzExM3lWV3gwT1VhNWtub2RCWkRxaHIvK2NVQzFEdHpDT0R2Vit0WnFzUUszSFZmd2VkSWtJWTFxYXBITVNlYzcvNFBYVEU5bWNpVWh6bDVOQmc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/659426898"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHM3NUtmSUxLNXNTYVJKUXpEdFhHS2p0d3Z5c0hPYzd1bUFMM0tPUmlBU2NKakwzU3pLZ08vd0ZGRU9idzJmbFR5NmpjUHNNSnRxbVFzR3h0UEtHendFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTI1MDEwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjYwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjAKam9qZEVIdy9MYXgvNlFzWFA3ai8xakZpdk1ZbER1WDFyU1VMY0I2TmFEaUpwN0s2ZFZ0MWIzTDNPb2plRjFjOUZibUNBa0ZoTVpoRGRzNk14S0NGRGc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/660287567"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5SdU0vd0g4aGZLZnk0cEVRTTdOYlV2QTk5YXcvTjY1R2loNStsdThUQ3lhWVJQMG56Y1JIdWdYb29CRDVmdWkvdjZLK3IvZmQyMGdDeXFXNTFmclFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTAzNDE2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTkKWlg1ZzExM3lWV3gwT1VhNWtub2RCWkRxaHIvK2NVQzFEdHpDT0R2Vit0WnFzUUszSFZmd2VkSWtJWTFxYXBITVNlYzcvNFBYVEU5bWNpVWh6bDVOQmc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/659426898"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHM3NUtmSUxLNXNTYVJKUXpEdFhHS2p0d3Z5c0hPYzd1bUFMM0tPUmlBU2NKakwzU3pLZ08vd0ZGRU9idzJmbFR5NmpjUHNNSnRxbVFzR3h0UEtHendFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTI1MDEwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjYwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjAKam9qZEVIdy9MYXgvNlFzWFA3ai8xakZpdk1ZbER1WDFyU1VMY0I2TmFEaUpwN0s2ZFZ0MWIzTDNPb2plRjFjOUZibUNBa0ZoTVpoRGRzNk14S0NGRGc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/660287567"
     }
   }
 }
