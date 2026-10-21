@@ -1,15 +1,15 @@
 {
-  "version": "0.3.54",
-  "notes": "### Historial\n\n- El menú incorpora un historial local de las últimas 10 búsquedas y biopsias abiertas.\n- El historial permite repetir una búsqueda, volver a abrir un folio y borrar sus entradas.",
-  "pub_date": "2026-09-29T13:54:56.057Z",
+  "version": "0.3.61",
+  "notes": "### Buscador de pacientes\n\n- El desplegable muestra todas las coincidencias, sin el límite anterior de 12 resultados, conservando el desplazamiento y el orden de búsqueda.\n- Los términos repetidos deben corresponder a palabras distintas del nombre: buscar dos apellidos iguales ya no devuelve pacientes que solo tienen uno de ellos.\n- Se mantiene la búsqueda sin distinguir tildes ni mayúsculas, por fragmentos y con nombres y apellidos en distinto orden.\n\n### Consolidación Stable\n\n- Incluye los cambios de Oncología y Biopsias GES publicados desde Stable 0.3.54: cruces por RUT y nombre, vistas compactas con folios visibles, resúmenes imprimibles por patólogo y estados de informe PDF uniformes.",
+  "pub_date": "2026-10-21T11:05:12.988Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNzbFduVnd2TFJNRURyc3ovd2pmNlg0dEZqN2V5U1JqVS9EZ2k2VDFxVnNaNzFqbG5oUFlLYWdUQ3I4RmlPMlBGd0ZnazQ1WFRXU0R2VlVXNm5ON3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjkwMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTQKTlJ2N3VPUVVFb1E1cVRvL2M3eUx2LzVkWXZ2dXJ5RVdhaUE3RWR6Q1pxNTNDN3hMaXRTUzYzaFlleFhRYWQyWVJwTG5EalBKQU9meUR2SitkTFNORFE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.54/Gestion.APA.-.Tiempos.de.respuesta_0.3.54_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGlzL2xDeGRhemJUUERSa3pYR3FwUTJydDVMQW1uQTF2TEJnSWV5OUN2NHdmR1VWQ3dsekNkbkFzbThFMGZMblRVOXYwWEtYSVYxc0F2eGI5V1h4elFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTgwNzA4CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjYxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjEKaWhVanhJMEpISytDT1RpV3krUHhpbSs2d2lzVVdBdzN6TVB3SUx5YklJYjVqdHA1VC9Ja0IxOUk3QkpTSnhxQkUyVnhWazV5NXhtSHF2eUJGWDZQQnc9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.61/Gestion.APA.-.Tiempos.de.respuesta_0.3.61_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNzbFduVnd2TFJNRURyc3ovd2pmNlg0dEZqN2V5U1JqVS9EZ2k2VDFxVnNaNzFqbG5oUFlLYWdUQ3I4RmlPMlBGd0ZnazQ1WFRXU0R2VlVXNm5ON3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjkwMDkyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjU0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNTQKTlJ2N3VPUVVFb1E1cVRvL2M3eUx2LzVkWXZ2dXJ5RVdhaUE3RWR6Q1pxNTNDN3hMaXRTUzYzaFlleFhRYWQyWVJwTG5EalBKQU9meUR2SitkTFNORFE9PQo=",
-      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.54/Gestion.APA.-.Tiempos.de.respuesta_0.3.54_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGlzL2xDeGRhemJUUERSa3pYR3FwUTJydDVMQW1uQTF2TEJnSWV5OUN2NHdmR1VWQ3dsekNkbkFzbThFMGZMblRVOXYwWEtYSVYxc0F2eGI5V1h4elFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTgwNzA4CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjYxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjEKaWhVanhJMEpISytDT1RpV3krUHhpbSs2d2lzVVdBdzN6TVB3SUx5YklJYjVqdHA1VC9Ja0IxOUk3QkpTSnhxQkUyVnhWazV5NXhtSHF2eUJGWDZQQnc9PQo=",
+      "url": "https://github.com/SPxMM3R1/gestion-apa-actualizaciones/releases/download/v0.3.61/Gestion.APA.-.Tiempos.de.respuesta_0.3.61_x64-setup.exe"
     }
   }
 }
