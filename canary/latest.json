@@ -1,15 +1,15 @@
 {
-  "version": "0.3.66",
-  "notes": "### Encabezado de resumen\n\n- El encabezado Resumen queda alineado a la izquierda, con el selector de año compacto junto al título y el subtítulo debajo sobre el mismo margen.\n- El indicador de carga conserva esa alineación al cambiar de año.",
-  "pub_date": "2026-10-22T12:30:23.521Z",
+  "version": "0.3.67",
+  "notes": "### Seguimiento APA\n\n- Unifica las solicitudes de Oncología, GES y la pestaña APA en una vista con filtros por origen, cruce de casos por fecha cuando corresponde y opciones para consultar, descargar e imprimir informes PDF.\n- Mantiene el estado informado en la fuente APA separado de la disponibilidad real del informe PDF.\n\n### Archivo físico\n\n- Incorpora gavetas con nombre editable para 156 ubicaciones de láminas y 416 de bloques.\n- Permite buscar y registrar folios con el lector numérico y Enter, seleccionando explícitamente año y tipo A, B o C; conserva la ubicación en IndexedDB de este equipo.\n- Requiere confirmación manual para mover folios entre gavetas.",
+  "pub_date": "2026-11-10T12:03:52.770Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG95WSs2MFk0eEJxTjdUUEp2YTVRODNMMlZrZWZmbTBPa0paY1lFMmxMaThCL2xFUDZsR0FWN1JGYklCb2hwRW1SRGhRdXE3OXcrLzdnTGwrUDAvcUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjcyMjE4CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjY2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjYKTFVqMzNtbmNNQStEbFFtR0VuZmJaSzFtdkE0U24yck5Sd24raTlUaWplMjM4VWJRMmVVYTM5bENRcW11RkVrRkZXUXlpTDZTTWI2aUp4WkZseXZxQmc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/665816205"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHM5MUY4em9VTFJVMGN1ZjJJOGVnVkZkaEpZdWl4Tm5OTGhkenNCUkNnbFBTanR5VXhXSkZlSnk0MU9hMXJhWkJ2TnFITnFkemViVjNkRUJSaytKRUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzEyMjI3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjY3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjcKNU5GOTVxdnlYelg2d2ZzQUdMYkR0UWo2WnR1TFhHMW5kTFJLUkhIQ0w2Ly9pQlVmaE1kd2FPcmZxVC9GTGJQUzRxMm1FbTJqUFZ5YlJnQnA1emNVQ3c9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/731290294"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG95WSs2MFk0eEJxTjdUUEp2YTVRODNMMlZrZWZmbTBPa0paY1lFMmxMaThCL2xFUDZsR0FWN1JGYklCb2hwRW1SRGhRdXE3OXcrLzdnTGwrUDAvcUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjcyMjE4CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjY2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjYKTFVqMzNtbmNNQStEbFFtR0VuZmJaSzFtdkE0U24yck5Sd24raTlUaWplMjM4VWJRMmVVYTM5bENRcW11RkVrRkZXUXlpTDZTTWI2aUp4WkZseXZxQmc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/665816205"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHM5MUY4em9VTFJVMGN1ZjJJOGVnVkZkaEpZdWl4Tm5OTGhkenNCUkNnbFBTanR5VXhXSkZlSnk0MU9hMXJhWkJ2TnFITnFkemViVjNkRUJSaytKRUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzEyMjI3CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjY3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjcKNU5GOTVxdnlYelg2d2ZzQUdMYkR0UWo2WnR1TFhHMW5kTFJLUkhIQ0w2Ly9pQlVmaE1kd2FPcmZxVC9GTGJQUzRxMm1FbTJqUFZ5YlJnQnA1emNVQ3c9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/731290294"
     }
   }
 }
