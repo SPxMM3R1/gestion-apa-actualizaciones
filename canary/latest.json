@@ -1,15 +1,15 @@
 {
-  "version": "0.3.69",
-  "notes": "### Creación de etiquetas de portaobjetos\n\n- Incorpora la herramienta independiente «Etiquetas» en el menú lateral para preparar e imprimir portaobjetos antes del corte, sin registrar una gaveta ni cargar una estadística.\n- Permite leer el código completo del taco o ingresar folio, taco y marcador del patólogo manualmente, con vista previa local y selección de 1 a 100 copias por trabajo.\n- Mueve el editor de plantilla a esta herramienta y mantiene el formato de 26 × 22 mm con área útil de 22,5 × 19 mm.\n- La lectura prepara la etiqueta y el envío a la Zebra siempre requiere una acción explícita. Un código inválido desactiva la etiqueta anterior.\n- El archivo físico ofrece un atajo para preparar la etiqueta, sin imprimir al guardar una ubicación.",
-  "pub_date": "2026-11-10T19:05:27.814Z",
+  "version": "0.3.70",
+  "notes": "### Inventario local\n\n- Agrega Inventario al menú de herramientas, con lectura automática de códigos de barras y alta de productos con nombre, marca, grupo y unidad de conteo.\n- Registra ingresos, consumos y ajustes por cantidad, con historial local de movimientos y control de stock mínimo configurable.\n- Guarda productos y movimientos en este equipo, impide códigos duplicados y bloquea consumos o ajustes que dejarían stock negativo.\n- Permite buscar y editar productos, revisar movimientos recientes y consultar hasta los últimos 100 movimientos.",
+  "pub_date": "2026-11-11T01:54:53.342Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGxsUDNST1dCZ3FPbkdLU05UQmtuN0wyckU2eEVxWGJZZzk2cXd0RTJkdmRRN29uckpBRklQSDd4U2NQUjBYK1hnaTJWQVRQRi9wSHloRjJ6NE4yZFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzM3NTIyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjY5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjkKTHI1cnVHaUM0YTZTeGZEWUFUY3dybDZUMko5OUxPZE42dlkwMTljV3RIa3lKczg0RmRNdnpPbGdnaHc2V2dJZ21BVVp0cU5rVnF6TlFSQnhjakRORHc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/732601801"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBCckFybm9rWVBGZEJpZ2QxTmVDVnNMVkJLbTlDRGdQZi9VZU92SDYwVVQ2NHA5RU5aYWVnNy9QSTZSN0VYSDlxWWRRNVM0REEyS2xFaWgwVkpNUkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzYyMDg5CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjcwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzAKOFk4ek9rNi9nSGVaQXFyZjZveDcrVVF5YkUrWVZIVUpsL1Bha0NSR0h4WTl3NUNGRXdPYVVKTGFDM0JaUUU4T3p5Y3BZdjZSKzdjaURieVNRZnRjQXc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/733729930"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGxsUDNST1dCZ3FPbkdLU05UQmtuN0wyckU2eEVxWGJZZzk2cXd0RTJkdmRRN29uckpBRklQSDd4U2NQUjBYK1hnaTJWQVRQRi9wSHloRjJ6NE4yZFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzM3NTIyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjY5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNjkKTHI1cnVHaUM0YTZTeGZEWUFUY3dybDZUMko5OUxPZE42dlkwMTljV3RIa3lKczg0RmRNdnpPbGdnaHc2V2dJZ21BVVp0cU5rVnF6TlFSQnhjakRORHc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/732601801"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBCckFybm9rWVBGZEJpZ2QxTmVDVnNMVkJLbTlDRGdQZi9VZU92SDYwVVQ2NHA5RU5aYWVnNy9QSTZSN0VYSDlxWWRRNVM0REEyS2xFaWgwVkpNUkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzYyMDg5CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjcwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzAKOFk4ek9rNi9nSGVaQXFyZjZveDcrVVF5YkUrWVZIVUpsL1Bha0NSR0h4WTl3NUNGRXdPYVVKTGFDM0JaUUU4T3p5Y3BZdjZSKzdjaURieVNRZnRjQXc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/733729930"
     }
   }
 }
