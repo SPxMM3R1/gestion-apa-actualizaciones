@@ -1,15 +1,15 @@
 {
-  "version": "0.3.70",
-  "notes": "### Inventario local\n\n- Agrega Inventario al menú de herramientas, con lectura automática de códigos de barras y alta de productos con nombre, marca, grupo y unidad de conteo.\n- Registra ingresos, consumos y ajustes por cantidad, con historial local de movimientos y control de stock mínimo configurable.\n- Guarda productos y movimientos en este equipo, impide códigos duplicados y bloquea consumos o ajustes que dejarían stock negativo.\n- Permite buscar y editar productos, revisar movimientos recientes y consultar hasta los últimos 100 movimientos.",
-  "pub_date": "2026-11-11T01:54:53.342Z",
+  "version": "0.3.71",
+  "notes": "### Archivo histórico\n\n- Agrega una ventana de búsqueda para consultar la base de datos y localizar informes en la carpeta documental vinculada.\n- Retira la carga de estadísticas de años anteriores del flujo principal.\n\n### Inventario compartido\n\n- Permite vincular una base de datos en una ubicación de red y mantener una copia local para trabajar sin conexión, sincronizando al iniciar y al reconectar.\n- Corrige el manejo de respuestas durante la sincronización.\n\n### Etiquetas de portaobjetos\n\n- Añade impresión automática opcional al escanear y permite procesar códigos consecutivos.\n- Ajusta el DataMatrix y el margen inferior de la etiqueta para evitar que el contenido se corte.",
+  "pub_date": "2026-11-11T12:41:55.922Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBCckFybm9rWVBGZEJpZ2QxTmVDVnNMVkJLbTlDRGdQZi9VZU92SDYwVVQ2NHA5RU5aYWVnNy9QSTZSN0VYSDlxWWRRNVM0REEyS2xFaWgwVkpNUkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzYyMDg5CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjcwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzAKOFk4ek9rNi9nSGVaQXFyZjZveDcrVVF5YkUrWVZIVUpsL1Bha0NSR0h4WTl3NUNGRXdPYVVKTGFDM0JaUUU4T3p5Y3BZdjZSKzdjaURieVNRZnRjQXc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/733729930"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHV1OTdSRTdPMUFoZTJiOXNxUWFvb05oeGJMdnBCMEhOVnI3YVE0ZGpBZW5PejBXeDRmSWRRKzRqOXlXdTVvVXAyTnZpRG9vTWtNU0d4UDRuS0pOVmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDAwOTExCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjcxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzEKbTY4MHpZaFBPNnJnWE43MkJEYWV0VkFGb1JCc0tPeWF2aXhVU3FwckZ1THJjb09MNjJrQndWUUl4a013UlhURWZOVE1ISVh0UkRUMjlQUzhwSXZhQlE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/735490226"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHBCckFybm9rWVBGZEJpZ2QxTmVDVnNMVkJLbTlDRGdQZi9VZU92SDYwVVQ2NHA5RU5aYWVnNy9QSTZSN0VYSDlxWWRRNVM0REEyS2xFaWgwVkpNUkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzYyMDg5CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjcwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzAKOFk4ek9rNi9nSGVaQXFyZjZveDcrVVF5YkUrWVZIVUpsL1Bha0NSR0h4WTl3NUNGRXdPYVVKTGFDM0JaUUU4T3p5Y3BZdjZSKzdjaURieVNRZnRjQXc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/733729930"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHV1OTdSRTdPMUFoZTJiOXNxUWFvb05oeGJMdnBCMEhOVnI3YVE0ZGpBZW5PejBXeDRmSWRRKzRqOXlXdTVvVXAyTnZpRG9vTWtNU0d4UDRuS0pOVmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDAwOTExCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjcxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzEKbTY4MHpZaFBPNnJnWE43MkJEYWV0VkFGb1JCc0tPeWF2aXhVU3FwckZ1THJjb09MNjJrQndWUUl4a013UlhURWZOVE1ISVh0UkRUMjlQUzhwSXZhQlE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/735490226"
     }
   }
 }
