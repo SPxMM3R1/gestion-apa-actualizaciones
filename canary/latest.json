@@ -1,15 +1,15 @@
 {
-  "version": "0.3.73",
-  "notes": "### Archivo histórico\n\n- Reconoce los encabezados abreviados «A. Paterno» y «A. Materno» y muestra los apellidos junto al nombre leído desde el Excel.",
-  "pub_date": "2026-11-11T18:20:48.894Z",
+  "version": "0.3.74",
+  "notes": "### Etiquetas de portaobjetos y archivo físico\n\n- Acepta códigos de taco sin número, como `B263114Z`, y conserva el folio y el marcador del patólogo al registrar el bloque o preparar la etiqueta.",
+  "pub_date": "2026-11-12T11:55:17.026Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHVXcmxmYmxQSGVoMldsQ3QydTBJdGgzS0NETjg3ZFRHcDlXeGpiYzI0QnVVRFVERUNTTGtEYk1rYU5GZkorMlA1Z010bWk5M1dMbEZ6a01td25uNmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIxMjQ0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjczX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzMKRDhSNUFCK0F1ODlIQUE5N1RFWUpSTkR6WlE0VExjYm5jZ09nSVhOU05NS09BLyt0RFBYUERoKytKZ3VwQjNyZHhpMUh1ZWVXOEx5M3h4Y1BzZzB2RGc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/736490336"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG0vT3hReEVTdmI3Z3AwcStFU2tMbEdJMnQwWnc0TkVFdG1Nc0Q0OHZiM0hvaHd1VTRkUWNQM3pxUElROE4yRHMwdlF6L2tDYi9lNFp3UFRMVlZWNWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDg0NTExCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzQKN2RqY3RDbVhWcDFxK1FjV0d2cnpnM0NibEtKM0NuN0pkSlh4cVpaYzFCQXcrUmhYVS9tYmpVOFhuMGo2a3ViZEZtZDl5MUIvZzRVRjlXQXcwQVhIRHc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/739303907"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHVXcmxmYmxQSGVoMldsQ3QydTBJdGgzS0NETjg3ZFRHcDlXeGpiYzI0QnVVRFVERUNTTGtEYk1rYU5GZkorMlA1Z010bWk5M1dMbEZ6a01td25uNmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIxMjQ0CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjczX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzMKRDhSNUFCK0F1ODlIQUE5N1RFWUpSTkR6WlE0VExjYm5jZ09nSVhOU05NS09BLyt0RFBYUERoKytKZ3VwQjNyZHhpMUh1ZWVXOEx5M3h4Y1BzZzB2RGc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/736490336"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG0vT3hReEVTdmI3Z3AwcStFU2tMbEdJMnQwWnc0TkVFdG1Nc0Q0OHZiM0hvaHd1VTRkUWNQM3pxUElROE4yRHMwdlF6L2tDYi9lNFp3UFRMVlZWNWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDg0NTExCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzQKN2RqY3RDbVhWcDFxK1FjV0d2cnpnM0NibEtKM0NuN0pkSlh4cVpaYzFCQXcrUmhYVS9tYmpVOFhuMGo2a3ViZEZtZDl5MUIvZzRVRjlXQXcwQVhIRHc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/739303907"
     }
   }
 }
