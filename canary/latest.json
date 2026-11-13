@@ -1,15 +1,15 @@
 {
-  "version": "0.3.75",
-  "notes": "### Inventario\n\n- En Consumo, cada escaneo de un producto registrado descuenta automáticamente una unidad y deja el lector listo para la siguiente lectura.\n- Los códigos desconocidos o sin stock muestran un aviso y no generan movimientos.",
-  "pub_date": "2026-11-12T17:15:44.728Z",
+  "version": "0.3.76",
+  "notes": "### Inventario\n\n- Agrega sector y estante/nivel como ubicación de cada producto al registrar y editar su ficha.\n- Muestra la ubicación en el stock y permite buscar productos por sector o estante.\n- Los productos existentes conservan sus datos y muestran la ubicación sin indicar hasta que se complete.",
+  "pub_date": "2026-11-13T12:59:35.456Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRlaGVDWmJ2RUJ6TTFESktjWFFKb3BKcnh4RmdnZCtvRHhjWi95Z3hJZDFkdHd0ZXdaOG51TFVHb1BKWTBMVkxyejdPcXhoR2Vzd05WbDdyc3gweUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTAzNzM5CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzUKRWYzU2tPemlqOFlSVUhjcjN2bHZNUHhYTG1maGQ4d1Y1YlJheFl5NkFKSGdCVXJ0Wk1MbkpPbW9sdU54VjZFRERhWDdpODkyc2pDeUlmR2k4ZDJHRFE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/740357662"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNSNEQzMnRSNmsxWTRlUkhoU3NRUkx1NDFEbFpJUDJ4OGs2aVhqakZrc2dhdGVMOVF3YnJFR21mYVRRVkdmanB0akQzVlZXendKT1M3bWZUMGI0UEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTc0NzcwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzYKQ096TG1Sd3RZNmEwVUo0YzAxRTYyTE04SzB2dXlPTDQzQm5TNXJMSzMycHJ4eCtqMmgwbFpLa1NaNnQza3kzQkhUelJkZGhQc25hYlZtVysvM1RSQnc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/743673104"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRlaGVDWmJ2RUJ6TTFESktjWFFKb3BKcnh4RmdnZCtvRHhjWi95Z3hJZDFkdHd0ZXdaOG51TFVHb1BKWTBMVkxyejdPcXhoR2Vzd05WbDdyc3gweUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTAzNzM5CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzUKRWYzU2tPemlqOFlSVUhjcjN2bHZNUHhYTG1maGQ4d1Y1YlJheFl5NkFKSGdCVXJ0Wk1MbkpPbW9sdU54VjZFRERhWDdpODkyc2pDeUlmR2k4ZDJHRFE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/740357662"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHNSNEQzMnRSNmsxWTRlUkhoU3NRUkx1NDFEbFpJUDJ4OGs2aVhqakZrc2dhdGVMOVF3YnJFR21mYVRRVkdmanB0akQzVlZXendKT1M3bWZUMGI0UEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTc0NzcwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzYKQ096TG1Sd3RZNmEwVUo0YzAxRTYyTE04SzB2dXlPTDQzQm5TNXJMSzMycHJ4eCtqMmgwbFpLa1NaNnQza3kzQkhUelJkZGhQc25hYlZtVysvM1RSQnc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/743673104"
     }
   }
 }
