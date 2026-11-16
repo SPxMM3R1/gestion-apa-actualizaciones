@@ -1,15 +1,15 @@
 {
-  "version": "0.3.77",
-  "notes": "### Impresión\n\n- Estandariza en papel Carta los informes y listados generados por la aplicación.\n- Ajusta a Carta la impresión individual y masiva de informes PDF antes de abrir el cuadro de impresión.",
-  "pub_date": "2026-11-16T15:58:30.708Z",
+  "version": "0.3.78",
+  "notes": "### Inventario\n\n- Agrega sincronización en internet con una planilla privada de Google Sheets configurada por la institución, sin iniciar sesión en los puestos.\n- Conserva en cada equipo los movimientos pendientes cuando se pierde internet y los envía al recuperar la conexión sin duplicarlos.\n- Registra para revisión los cambios que entran en conflicto, como dos ediciones del mismo campo o un consumo que supera el saldo disponible.",
+  "pub_date": "2026-11-16T20:01:31.131Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG9mS3p6ckxkaHBXbVZUZXRuZ3FMTW5MRVpEYjNtTm80TUhoRy9NU0ZJdXJJVE95bSt2T29iRVpGbWJUR0kzdUhCakdra0hVYXVDRFZTTUwrWVFPSEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODQ0NzA1CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzcKWVdpc3EvMDE5bXhaeHBZUXk5Y1pqUU5GYm11STEvRzFQcnZ6UUdXeHN5ODJiQnBRaFkzd2RJZ3lybU9qeE53Vnc5dUhLM2VseE1TUVU5YVlHaGcyQXc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/755464882"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZaZVEvTUxCTEM4QmFUYU9yNHVQTHZRenRURC9Hckx5ck9WN2NKS0ZGaHFFRFBGWGltbDBmNEw0WW5ubjdYNnFmcUxYU0RTMThZTUdDbEdEZHlmTkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODU5Mjg2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzgKQmNSNW1HYk9NWk9jaDJ3RWc1cU5OSGRvaXNsYjFuWTZrWjlVN3FSOFVBZy9KTVNYNXFveHluQlEyY0x1eUJldlhwWDhiTldqSG1aS0UwY09YOWxJRHc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/756249736"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG9mS3p6ckxkaHBXbVZUZXRuZ3FMTW5MRVpEYjNtTm80TUhoRy9NU0ZJdXJJVE95bSt2T29iRVpGbWJUR0kzdUhCakdra0hVYXVDRFZTTUwrWVFPSEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODQ0NzA1CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzcKWVdpc3EvMDE5bXhaeHBZUXk5Y1pqUU5GYm11STEvRzFQcnZ6UUdXeHN5ODJiQnBRaFkzd2RJZ3lybU9qeE53Vnc5dUhLM2VseE1TUVU5YVlHaGcyQXc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/755464882"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZaZVEvTUxCTEM4QmFUYU9yNHVQTHZRenRURC9Hckx5ck9WN2NKS0ZGaHFFRFBGWGltbDBmNEw0WW5ubjdYNnFmcUxYU0RTMThZTUdDbEdEZHlmTkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODU5Mjg2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzgKQmNSNW1HYk9NWk9jaDJ3RWc1cU5OSGRvaXNsYjFuWTZrWjlVN3FSOFVBZy9KTVNYNXFveHluQlEyY0x1eUJldlhwWDhiTldqSG1aS0UwY09YOWxJRHc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/756249736"
     }
   }
 }
