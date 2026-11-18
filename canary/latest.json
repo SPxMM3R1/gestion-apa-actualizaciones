@@ -1,15 +1,15 @@
 {
-  "version": "0.3.78",
-  "notes": "### Inventario\n\n- Agrega sincronización en internet con una planilla privada de Google Sheets configurada por la institución, sin iniciar sesión en los puestos.\n- Conserva en cada equipo los movimientos pendientes cuando se pierde internet y los envía al recuperar la conexión sin duplicarlos.\n- Registra para revisión los cambios que entran en conflicto, como dos ediciones del mismo campo o un consumo que supera el saldo disponible.",
-  "pub_date": "2026-11-16T20:01:31.131Z",
+  "version": "0.3.80",
+  "notes": "### Ingreso de biopsias\n\n- Agrega la sección Registro → Ingreso para registrar biopsias directamente en la estadística `.xlsx` vinculada, que sigue siendo la fuente oficial.\n- Recepción: sugiere el Nº Biop siguiente, valida el RUN, las fechas y los campos obligatorios, completa los datos de pacientes ya registrados y muestra la fecha límite de 20 días hábiles con el mismo calendario del Resumen.\n- Completar informe: lista los casos sin validación y escribe patólogo, fechas, resultado, crítico, rechazo y códigos. Solo modifica los campos cambiados y avisa si otra persona editó el caso en el Excel mientras tanto.\n- Cada guardado escribe en la hoja del mes de recepción según los encabezados (el orden de las columnas puede variar entre meses), usa la primera fila libre preformateada, conserva el formato y no toca el resto del libro.\n- Antes de escribir guarda un respaldo en este equipo, evita que dos puestos escriban a la vez y rechaza el guardado si el archivo está abierto en Excel o LibreOffice. Si no se puede guardar, el ingreso queda en Borradores.\n- Los respaldos nunca se sobrescriben. Se conservan todos los de los últimos 7 días, uno por día hasta 60 días y siempre los 40 más recientes.\n- Respaldos permite restaurar una copia con confirmación; la versión reemplazada se respalda primero, así que se puede deshacer.\n- La columna Tiempo de respuesta no se escribe: la aplicación la calcula.",
+  "pub_date": "2026-11-18T22:34:32.445Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZaZVEvTUxCTEM4QmFUYU9yNHVQTHZRenRURC9Hckx5ck9WN2NKS0ZGaHFFRFBGWGltbDBmNEw0WW5ubjdYNnFmcUxYU0RTMThZTUdDbEdEZHlmTkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODU5Mjg2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzgKQmNSNW1HYk9NWk9jaDJ3RWc1cU5OSGRvaXNsYjFuWTZrWjlVN3FSOFVBZy9KTVNYNXFveHluQlEyY0x1eUJldlhwWDhiTldqSG1aS0UwY09YOWxJRHc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/756249736"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5sVXBKQXJzRE1RWHVoSEgwckNXNzcydE43ejBVR2hSUmVOWlA0Si9LeDdGaHlnRnVlalBPY1A2RVVOQUc2TGo2YXJPaTVqbEU1dUkwZElKaE9ZMWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQxMjY2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjgwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODAKUHk4YXZ5bTJ2SFlWTmVpcUNiNVZTYU1TZGhyUlV4emZlUHFBck9ydDM1bDJKbUJ1SnpLSjNabkFUcnFmbnpmQUtVbzlMSko5NDkvd21tSkhmVVI5RFE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/765264077"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHZaZVEvTUxCTEM4QmFUYU9yNHVQTHZRenRURC9Hckx5ck9WN2NKS0ZGaHFFRFBGWGltbDBmNEw0WW5ubjdYNnFmcUxYU0RTMThZTUdDbEdEZHlmTkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODU5Mjg2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjc4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNzgKQmNSNW1HYk9NWk9jaDJ3RWc1cU5OSGRvaXNsYjFuWTZrWjlVN3FSOFVBZy9KTVNYNXFveHluQlEyY0x1eUJldlhwWDhiTldqSG1aS0UwY09YOWxJRHc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/756249736"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5sVXBKQXJzRE1RWHVoSEgwckNXNzcydE43ejBVR2hSUmVOWlA0Si9LeDdGaHlnRnVlalBPY1A2RVVOQUc2TGo2YXJPaTVqbEU1dUkwZElKaE9ZMWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQxMjY2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjgwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODAKUHk4YXZ5bTJ2SFlWTmVpcUNiNVZTYU1TZGhyUlV4emZlUHFBck9ydDM1bDJKbUJ1SnpLSjNabkFUcnFmbnpmQUtVbzlMSko5NDkvd21tSkhmVVI5RFE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/765264077"
     }
   }
 }
