@@ -1,15 +1,15 @@
 {
-  "version": "0.3.82",
-  "notes": "### Ingreso de biopsias\n\n- Deja de decir que el Excel está abierto cuando nadie lo tiene abierto. Antes bastaba el archivo oculto `~$` que Excel deja en la carpeta si se cierra mal (corte de luz, equipo apagado, caída de red). Ahora se comprueba con Windows si el libro sigue en uso: un `~$` huérfano se ignora y se guarda normalmente.\n- Si el libro está abierto para editar en otro equipo, se sigue rechazando el guardado aunque no exista el archivo `~$`. Abrirlo en Excel como solo lectura no impide guardar.",
-  "pub_date": "2026-11-19T16:19:38.454Z",
+  "version": "0.3.83",
+  "notes": "### Ingreso de biopsias\n\n- Los borradores se comparten entre equipos: se guardan junto a la estadística, en la carpeta «Borradores Gestion APA», un archivo por borrador. La pestaña Borradores muestra los de todos los puestos con el equipo que los guardó, y cualquiera puede continuarlos. Sin acceso a la carpeta quedan en el equipo y se suben solos al volver la conexión; los borradores locales existentes también se suben.\n- Nueva pestaña «Editar»: busca cualquier biopsia del año por Nº Biop, RUN, nombre, apellidos o muestra (sin texto, lista los 30 ingresos más recientes) y permite modificar todas las columnas del Excel. Solo se escriben los campos cambiados, con respaldo previo y aviso si otro equipo los modificó entretanto.\n- El Nº Biop no se edita y la fecha de recepción no puede cambiar de mes, porque la fila vive en la hoja de ese mes.",
+  "pub_date": "2026-11-19T18:05:35.283Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGhsTEh6NkhodDVvVGdjdjJqcTZ3aWVydWpDR0pzZjQ1YTMrS0JEbWxuekhsRGdYWGdtckdjRUtJK0w4a3BZc1hBLzFmSHJuQnp4UGR5Rlp6RHptY0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTA1MTcyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjgyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODIKdjlkUnBZZnVVcUtRYjFvK1NheTFIZE4xTnFXOE5HajlXZzR1TjBOU1lyYmlET0MzYlhvcGdVeTJRU1ZiZTFtRUZGb0xON0RmVGE0anNvRnBoNmFRQ3c9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/768380096"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5hckNyRGZGRG43T1duZGpicitxdnFRbEdXTHBQRUFIbjFYYlFhc1hKNmhBSmNqOGZQMDRTWVJvZkRXemlCTHhSZHdXb3RpdHFOazdIYzIxaVduRmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTExNTI5CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjgzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODMKUXc1Y0lCaXd1L1JRdVNOY2ZUVlBhRFJxeFdUQzFmeXlEUk1OOE44R29kN2VkWnJ1NEZqSTU3Wm84dFhzMEduVHltcENTZ1liSCtvb25LeU1tMDhqQ3c9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/768714697"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGhsTEh6NkhodDVvVGdjdjJqcTZ3aWVydWpDR0pzZjQ1YTMrS0JEbWxuekhsRGdYWGdtckdjRUtJK0w4a3BZc1hBLzFmSHJuQnp4UGR5Rlp6RHptY0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTA1MTcyCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjgyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODIKdjlkUnBZZnVVcUtRYjFvK1NheTFIZE4xTnFXOE5HajlXZzR1TjBOU1lyYmlET0MzYlhvcGdVeTJRU1ZiZTFtRUZGb0xON0RmVGE0anNvRnBoNmFRQ3c9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/768380096"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5hckNyRGZGRG43T1duZGpicitxdnFRbEdXTHBQRUFIbjFYYlFhc1hKNmhBSmNqOGZQMDRTWVJvZkRXemlCTHhSZHdXb3RpdHFOazdIYzIxaVduRmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTExNTI5CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjgzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODMKUXc1Y0lCaXd1L1JRdVNOY2ZUVlBhRFJxeFdUQzFmeXlEUk1OOE44R29kN2VkWnJ1NEZqSTU3Wm84dFhzMEduVHltcENTZ1liSCtvb25LeU1tMDhqQ3c9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/768714697"
     }
   }
 }
