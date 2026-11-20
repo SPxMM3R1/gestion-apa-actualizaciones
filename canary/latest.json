@@ -1,15 +1,15 @@
 {
-  "version": "0.3.84",
-  "notes": "### Sin internet\n\n- La aplicación ya no se conecta a internet, salvo para buscar e instalar actualizaciones.\n- Se elimina Seguimiento APA (listas de Oncología, GES y APA leídas desde Google Sheets), incluido su resumen imprimible.\n- El inventario deja de sincronizarse con Google Sheets: se quitan «Conectar Google Sheets» y su configuración. El inventario se guarda en cada equipo y, si se quiere, se comparte mediante una carpeta de la red del hospital. Un equipo que estaba conectado a Google Sheets conserva sus datos y pasa a modo local.\n\n### Ingreso de biopsias\n\n- El RUN se puede escribir con o sin puntos y guion (16.989.257-1, 16989257-1 o 169892571). El último carácter se toma como dígito verificador y se comprueba; al salir de la casilla y al guardar en el Excel queda como 16.989.257-1.\n- Un RUN inválido se marca en rojo y no deja guardar. Si parece escrito sin dígito verificador, se indica cómo quedaría (por ejemplo, 16989257 → 16.989.257-1). Los documentos extranjeros se guardan tal como se escriben.\n- Enter pasa a la casilla siguiente y Shift+Enter a la anterior, como en Excel. Solo Ctrl+Enter guarda; antes Enter podía guardar el caso sin terminarlo. En los textos largos Enter sigue haciendo salto de línea.",
-  "pub_date": "2026-11-19T22:50:28.165Z",
+  "version": "0.3.85",
+  "notes": "### Ingreso de biopsias\n\n- En la casilla Edad se puede escribir la edad o la fecha de nacimiento (18-11-1972, 18/11/72, 18111972). Al salir de la casilla se calcula la edad cumplida a la toma de muestra, o a la recepción si no hay toma de muestra, y la fecha usada queda a la vista bajo la casilla. Al Excel solo va la edad.\n- Un año de dos dígitos se lee en el siglo pasado si es mayor al año actual (74 → 1974) y en este siglo si no (20 → 2020). Una fecha imposible o posterior a la toma de muestra no deja guardar.",
+  "pub_date": "2026-11-20T14:49:46.796Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5weldYMFovRDI2UGxxVXhKMkRFTE9QNEV2VmIzZmpiVTZwc2Nud1RBQkx2QVNVSVFZYTJ5elZEZHdkM1lHbXF3eGFRZGVwczVOeGxqNldvUGhQSWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTI4NjIzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjg0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODQKN1FNS1RoVnpvSGRDcVFqS1VwQ0tOUW81WTJsYjhxbTAveFVzTEtuM2srK1ZyQmdxcW5MZ3k5dmg5MnpZZGdES2JISXo5cmVMYkdFL09EZXczM0EwQ0E9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/769571476"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRYWnZWUjZUSXQwTFpXajhnaTBNS0w4WUVtdXdwQmh3Y0s5OEFBZlFNcXdZTjcxOFpMNlQrQW1mL3gxZFNWYnZjQURIWnAwOFA3U2haS2d3VlU4blFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTg2MTgxCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjg1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODUKK2o2cHFReUY3ZkxkcVdFNGhKN3YwTjhkSGNLd0ZPZmZoV1JrMVUrV1pxWkFWUGNaeVE1RktPRVMzQm1jTURiOHp1Vm01UmJ2Sjl0YzRBQmd2amVmQkE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/772198140"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcG5weldYMFovRDI2UGxxVXhKMkRFTE9QNEV2VmIzZmpiVTZwc2Nud1RBQkx2QVNVSVFZYTJ5elZEZHdkM1lHbXF3eGFRZGVwczVOeGxqNldvUGhQSWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTI4NjIzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjg0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODQKN1FNS1RoVnpvSGRDcVFqS1VwQ0tOUW81WTJsYjhxbTAveFVzTEtuM2srK1ZyQmdxcW5MZ3k5dmg5MnpZZGdES2JISXo5cmVMYkdFL09EZXczM0EwQ0E9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/769571476"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHRYWnZWUjZUSXQwTFpXajhnaTBNS0w4WUVtdXdwQmh3Y0s5OEFBZlFNcXdZTjcxOFpMNlQrQW1mL3gxZFNWYnZjQURIWnAwOFA3U2haS2d3VlU4blFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTg2MTgxCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjg1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuODUKK2o2cHFReUY3ZkxkcVdFNGhKN3YwTjhkSGNLd0ZPZmZoV1JrMVUrV1pxWkFWUGNaeVE1RktPRVMzQm1jTURiOHp1Vm01UmJ2Sjl0YzRBQmd2amVmQkE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/772198140"
     }
   }
 }
