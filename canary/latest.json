@@ -1,15 +1,15 @@
 {
-  "version": "0.3.93",
-  "notes": "### Correcciones urgentes\n\n- Archivo físico y Etiquetas: se leen los tacos de Moncaleano (M) y de Zapata (Z) aunque el lector entregue el código con guiones o espacios (B26-3333-C2M, B26-3333-C2 M, B263333-C2-M) o con apóstrofo en vez de guion. La última letra Z o M siempre es el patólogo, nunca parte del taco. El código se guarda siempre en la forma B263333-C2M.\n- Inventario: una cantidad que parece un código de barras (6 dígitos o más) ya no se acepta; el máximo por ingreso o consumo es 9999 unidades. Un ajuste negativo puede corregir un stock erróneo de cualquier tamaño.",
-  "pub_date": "2026-11-24T18:59:45.646Z",
+  "version": "0.3.94",
+  "notes": "### Inventario\n\n- «Ajustar» ahora pide el **stock real contado** (lo que hay en el estante) en vez de la variación con signo. La app calcula la diferencia y la muestra en «Quedarán». Así un error de signo ya no puede sumar en lugar de restar.\n- Un conteo de 6 dígitos o más se rechaza porque parece un código de barras.",
+  "pub_date": "2026-11-24T19:33:26.443Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGd3ZnZhTmw1U3E1V3YvUlNibFhyRDlBTTNqYWU5NzF1SVJZQnBzSHQxbzExRDdkdGpMd0pRNHpWaU5COE9UdG5JUDZUQ2MyOVpkYWNYWmJFZG5lK3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ2NzgwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTMKTDU0a2d1OGExS0ZLWGo5SzZZOUNzR2hTbHpUczR0UDYyaDd2dzRHY3dkK1g5R2tKcnkxWGhFS3EyTEt4eklqajBvMlI5clpuZVVhSS84M24rV2lwQXc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788459438"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJqNXNFNW1sbjNUWDBRNTZWeVA1T1RmN0JiUXhwVzJQTnZTOXNaZ250ZCtleGNoR2lkNHJPRzB3Q2E5d2w3dGRxK2Q4MCtMTzFwb055NGVLNlNuVHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ4ODAwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTQKVWNrUE8xdTdiMnMxQXdQZmR6UXczT0FSQlNZSGRZWi9mSEhxOEhtemw4cWpEVzU2ZzE0VStsNGlqVlQ5UEVZdU52YWw3eWgxU3lTdDRnV0hueHBzQ1E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788560050"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGd3ZnZhTmw1U3E1V3YvUlNibFhyRDlBTTNqYWU5NzF1SVJZQnBzSHQxbzExRDdkdGpMd0pRNHpWaU5COE9UdG5JUDZUQ2MyOVpkYWNYWmJFZG5lK3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ2NzgwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTMKTDU0a2d1OGExS0ZLWGo5SzZZOUNzR2hTbHpUczR0UDYyaDd2dzRHY3dkK1g5R2tKcnkxWGhFS3EyTEt4eklqajBvMlI5clpuZVVhSS84M24rV2lwQXc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788459438"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJqNXNFNW1sbjNUWDBRNTZWeVA1T1RmN0JiUXhwVzJQTnZTOXNaZ250ZCtleGNoR2lkNHJPRzB3Q2E5d2w3dGRxK2Q4MCtMTzFwb055NGVLNlNuVHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ4ODAwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTQKVWNrUE8xdTdiMnMxQXdQZmR6UXczT0FSQlNZSGRZWi9mSEhxOEhtemw4cWpEVzU2ZzE0VStsNGlqVlQ5UEVZdU52YWw3eWgxU3lTdDRnV0hueHBzQ1E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788560050"
     }
   }
 }
