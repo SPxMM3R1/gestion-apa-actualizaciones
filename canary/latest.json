@@ -1,15 +1,15 @@
 {
-  "version": "0.3.92",
-  "notes": "### Informes\n\n- Los datos del paciente (nombre, RUN, edad, muestra), el médico solicitante, la fecha de solicitud y el nombre de la firma se pueden corregir en la barra del caso. El cambio vale solo para ese informe y viaja en el borrador compartido; la estadística se sigue corrigiendo en Ingreso › Editar.\n- El bloque de datos del informe (NOMBRE, RUN, EDAD, MUESTRA DE, ANTECEDENTE CLÍNICO, SOLICITADO POR) va siempre en mayúsculas, en la vista previa y en el Word.",
-  "pub_date": "2026-11-24T18:30:27.418Z",
+  "version": "0.3.93",
+  "notes": "### Correcciones urgentes\n\n- Archivo físico y Etiquetas: se leen los tacos de Moncaleano (M) y de Zapata (Z) aunque el lector entregue el código con guiones o espacios (B26-3333-C2M, B26-3333-C2 M, B263333-C2-M) o con apóstrofo en vez de guion. La última letra Z o M siempre es el patólogo, nunca parte del taco. El código se guarda siempre en la forma B263333-C2M.\n- Inventario: una cantidad que parece un código de barras (6 dígitos o más) ya no se acepta; el máximo por ingreso o consumo es 9999 unidades. Un ajuste negativo puede corregir un stock erróneo de cualquier tamaño.",
+  "pub_date": "2026-11-24T18:59:45.646Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHIyOTR2Nld2d2JoR1h6UWd5Z0tHV1I5SHVVbFB5M05zMms0OFNJbkRZOENnaktEZDVMVFBDN1JFMm9raWkxKzR6RGhjbUtpSERpRkJDZWpGaHVTckFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ1MDIwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTIKUUsvVUt6eHFWc0wvd1BjSDZFa1VPOW96ZzlwS2E2MmluMlVMdDg4WkhlMUcyWFR5NTJKQUJHR0FPS1NubGhiQlVwaWxsOTVCN3VTL0V2VmJFN1piRFE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788362336"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGd3ZnZhTmw1U3E1V3YvUlNibFhyRDlBTTNqYWU5NzF1SVJZQnBzSHQxbzExRDdkdGpMd0pRNHpWaU5COE9UdG5JUDZUQ2MyOVpkYWNYWmJFZG5lK3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ2NzgwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTMKTDU0a2d1OGExS0ZLWGo5SzZZOUNzR2hTbHpUczR0UDYyaDd2dzRHY3dkK1g5R2tKcnkxWGhFS3EyTEt4eklqajBvMlI5clpuZVVhSS84M24rV2lwQXc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788459438"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHIyOTR2Nld2d2JoR1h6UWd5Z0tHV1I5SHVVbFB5M05zMms0OFNJbkRZOENnaktEZDVMVFBDN1JFMm9raWkxKzR6RGhjbUtpSERpRkJDZWpGaHVTckFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ1MDIwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTIKUUsvVUt6eHFWc0wvd1BjSDZFa1VPOW96ZzlwS2E2MmluMlVMdDg4WkhlMUcyWFR5NTJKQUJHR0FPS1NubGhiQlVwaWxsOTVCN3VTL0V2VmJFN1piRFE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788362336"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGd3ZnZhTmw1U3E1V3YvUlNibFhyRDlBTTNqYWU5NzF1SVJZQnBzSHQxbzExRDdkdGpMd0pRNHpWaU5COE9UdG5JUDZUQ2MyOVpkYWNYWmJFZG5lK3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ2NzgwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTMKTDU0a2d1OGExS0ZLWGo5SzZZOUNzR2hTbHpUczR0UDYyaDd2dzRHY3dkK1g5R2tKcnkxWGhFS3EyTEt4eklqajBvMlI5clpuZVVhSS84M24rV2lwQXc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788459438"
     }
   }
 }
