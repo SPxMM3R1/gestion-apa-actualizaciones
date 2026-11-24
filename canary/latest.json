@@ -1,15 +1,15 @@
 {
-  "version": "0.3.91",
-  "notes": "### Informes (nuevo, en prueba)\n\n- Nueva opción Registro › Informes para redactar el informe de biopsia con el formato Word del servicio.\n- Escribe el Nº Biop (3104 o B26-3104) y el informe trae nombre, RUN, edad, muestra, antecedente, médico y patólogo desde la estadística cargada. El formato del patólogo define si lleva microscopía.\n- Los borradores se comparten entre equipos en la carpeta «Borradores Gestion APA», igual que los de Ingreso.\n- «Marcar informado» escribe la fecha en «Fecha tipeo informe» y «Validar» en «Fecha notificación / validación» de esa fila del Excel, con el mismo control de Ingreso si alguien cambió la fila.\n- El Word se guarda en la carpeta que elijas en Opciones › Informes, con una subcarpeta por mes y un archivo por folio (por ejemplo, 2026\\11 Noviembre\\B26-3104.docx). Sin carpeta elegida, se descarga.\n- Frases rápidas comunes y de cada patólogo; las que agrega un patólogo se comparten.\n- Corrector ortográfico sin internet con el vocabulario del servicio: corrige solo errores seguros al terminar la palabra, sugiere tildes y formas habituales, y marca palabras desconocidas.\n- El corrector aprende de los informes validados leyendo solo macroscopía, microscopía y diagnóstico; nunca datos del paciente.",
-  "pub_date": "2026-11-24T15:40:09.971Z",
+  "version": "0.3.92",
+  "notes": "### Informes\n\n- Los datos del paciente (nombre, RUN, edad, muestra), el médico solicitante, la fecha de solicitud y el nombre de la firma se pueden corregir en la barra del caso. El cambio vale solo para ese informe y viaja en el borrador compartido; la estadística se sigue corrigiendo en Ingreso › Editar.\n- El bloque de datos del informe (NOMBRE, RUN, EDAD, MUESTRA DE, ANTECEDENTE CLÍNICO, SOLICITADO POR) va siempre en mayúsculas, en la vista previa y en el Word.",
+  "pub_date": "2026-11-24T18:30:27.418Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGhMUmRRMHhqVjZkQ3crTnNMbTBsM3lydHdsRjY3MjJ6akdDYW9BOHhydThNUG5tUHBBQnVkUHNEZER0UFh3dUVLNVppTlNLOWg3Mm04S2hiS012MHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTM0ODAzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTEKTTBxckh1SUgrUnV3RExuZGIzTnlsNmxMZGxwK1NrV1dUVnEwWmc5ZnpKeTNtNVVCS1dZZEhRT3pucTJvQjFFaE5JdFB5eGdWSWJ3S09IUGRWM1pNRGc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/787775893"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHIyOTR2Nld2d2JoR1h6UWd5Z0tHV1I5SHVVbFB5M05zMms0OFNJbkRZOENnaktEZDVMVFBDN1JFMm9raWkxKzR6RGhjbUtpSERpRkJDZWpGaHVTckFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ1MDIwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTIKUUsvVUt6eHFWc0wvd1BjSDZFa1VPOW96ZzlwS2E2MmluMlVMdDg4WkhlMUcyWFR5NTJKQUJHR0FPS1NubGhiQlVwaWxsOTVCN3VTL0V2VmJFN1piRFE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788362336"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGhMUmRRMHhqVjZkQ3crTnNMbTBsM3lydHdsRjY3MjJ6akdDYW9BOHhydThNUG5tUHBBQnVkUHNEZER0UFh3dUVLNVppTlNLOWg3Mm04S2hiS012MHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTM0ODAzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTEKTTBxckh1SUgrUnV3RExuZGIzTnlsNmxMZGxwK1NrV1dUVnEwWmc5ZnpKeTNtNVVCS1dZZEhRT3pucTJvQjFFaE5JdFB5eGdWSWJ3S09IUGRWM1pNRGc9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/787775893"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHIyOTR2Nld2d2JoR1h6UWd5Z0tHV1I5SHVVbFB5M05zMms0OFNJbkRZOENnaktEZDVMVFBDN1JFMm9raWkxKzR6RGhjbUtpSERpRkJDZWpGaHVTckFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ1MDIwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjkyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTIKUUsvVUt6eHFWc0wvd1BjSDZFa1VPOW96ZzlwS2E2MmluMlVMdDg4WkhlMUcyWFR5NTJKQUJHR0FPS1NubGhiQlVwaWxsOTVCN3VTL0V2VmJFN1piRFE9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788362336"
     }
   }
 }
