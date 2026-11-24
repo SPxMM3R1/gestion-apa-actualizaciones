@@ -1,15 +1,15 @@
 {
-  "version": "0.3.94",
-  "notes": "### Inventario\n\n- «Ajustar» ahora pide el **stock real contado** (lo que hay en el estante) en vez de la variación con signo. La app calcula la diferencia y la muestra en «Quedarán». Así un error de signo ya no puede sumar en lugar de restar.\n- Un conteo de 6 dígitos o más se rechaza porque parece un código de barras.",
-  "pub_date": "2026-11-24T19:33:26.443Z",
+  "version": "0.3.95",
+  "notes": "### Archivo físico y Etiquetas\n\n- Vuelve la lectura estricta de los tacos (por ejemplo B263333-C2M o B263333-C2Z). La 0.3.93 aceptaba también variantes con guiones o espacios, pero el taco que fallaba estaba mal impreso: es mejor que un código distinto se rechace para que se note. La última letra Z o M sigue siendo el patólogo.",
+  "pub_date": "2026-11-24T19:59:57.386Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJqNXNFNW1sbjNUWDBRNTZWeVA1T1RmN0JiUXhwVzJQTnZTOXNaZ250ZCtleGNoR2lkNHJPRzB3Q2E5d2w3dGRxK2Q4MCtMTzFwb055NGVLNlNuVHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ4ODAwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTQKVWNrUE8xdTdiMnMxQXdQZmR6UXczT0FSQlNZSGRZWi9mSEhxOEhtemw4cWpEVzU2ZzE0VStsNGlqVlQ5UEVZdU52YWw3eWgxU3lTdDRnV0hueHBzQ1E9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788560050"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGhsK0pxTHhuRjFWWFc4REp5M29mSmZEdmd3M0l4eVZoYjRacmU5bHFRRURNMU9VcUVNTHV1NDFMSkZuOVYwaDlUdWduNEN0NVFoeVJ2Z2IzYlc4WWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTUwMzkxCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTUKSXZJV0pDMGt6a1lUYmVERkNJUlhPMW83YWp1Wk5ZNTN6MDdQT2pKVi9PRGNxR0wvek13ZE5IK2hTdjBHVStUUmdwWFNhQkl4dm56dWNWWEV6YkVEQ1E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788645869"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHJqNXNFNW1sbjNUWDBRNTZWeVA1T1RmN0JiUXhwVzJQTnZTOXNaZ250ZCtleGNoR2lkNHJPRzB3Q2E5d2w3dGRxK2Q4MCtMTzFwb055NGVLNlNuVHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ4ODAwCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTQKVWNrUE8xdTdiMnMxQXdQZmR6UXczT0FSQlNZSGRZWi9mSEhxOEhtemw4cWpEVzU2ZzE0VStsNGlqVlQ5UEVZdU52YWw3eWgxU3lTdDRnV0hueHBzQ1E9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788560050"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGhsK0pxTHhuRjFWWFc4REp5M29mSmZEdmd3M0l4eVZoYjRacmU5bHFRRURNMU9VcUVNTHV1NDFMSkZuOVYwaDlUdWduNEN0NVFoeVJ2Z2IzYlc4WWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTUwMzkxCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTUKSXZJV0pDMGt6a1lUYmVERkNJUlhPMW83YWp1Wk5ZNTN6MDdQT2pKVi9PRGNxR0wvek13ZE5IK2hTdjBHVStUUmdwWFNhQkl4dm56dWNWWEV6YkVEQ1E9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/788645869"
     }
   }
 }
