@@ -1,15 +1,15 @@
 {
-  "version": "0.3.97",
-  "notes": "### Buscador\n\n- **El buscador central abre la biopsia desde cualquier sección.** Antes, con Inventario, Trazabilidad, Ingreso u otra sección abierta, la ficha o la lista de resultados se abría detrás del panel y no se veía. Ahora, si encuentra algo, cierra la sección y lo muestra; si no encuentra nada, no cierra nada.\n- El folio idéntico aparece primero (B26-3021 antes que A26-3021).\n\n### Folios con ceros\n\n- **B2600003021, B-260002850 y B26 3021 se leen como B26-3021 / B26-2850** en los nombres de los PDF, el archivo histórico, las fechas OCR de entrega, la búsqueda masiva, las descargas y el buscador central. Antes B2600003021 se leía como B26-302, otro informe.\n\n### Informes\n\n- La flecha del diagnóstico se ve igual en la vista previa que en el Word.\n- «Antecedente clínico» y «Solicitado por» terminan con un solo punto al final (DR(A) NOMBRE APELLIDO.).\n- Si el antecedente ocupa dos líneas, la segunda queda alineada con el texto.\n- Un solo botón de imprimir: el ícono del panel de vista previa (Ctrl+P sigue funcionando).",
-  "pub_date": "2026-11-26T15:53:19.272Z",
+  "version": "0.3.98",
+  "notes": "### Informes\n\n- El «Antecedente clínico» va sin punto final (se quita si se escribió). «Solicitado por» mantiene el punto al final del último apellido: DR(A) NOMBRE APELLIDO.",
+  "pub_date": "2026-11-26T16:37:01.337Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtSMndXdmx1UGNUdGpBeVJIYnNYMnMzZXlrbUJaWFQyRmlvSFFDWEkwRVBFb2Y3U040NnZ5Q0Q5OFpleUtSbFhocm1jYktBekdxK0tUejJQbGV5R1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzA4MzkzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTcKT2tyQ0xybUNNdzdSVGF2RXpmY0xJU2hjbjgyRVdXcEdVWGk0R2RvcGpvYWcydmF1MVc4dW4zeVlLRHEzdnJBczJtOVlsV1FyWGtVSU5zRDMrMlA3QVE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/796609830"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHQwWkRDd0Q0ZFAxUkU1K0F5WElVaUNoWlI1NWNHVVFTcWRzQU53V2RieWxhRUovYWR5Zk9pbUNDMVpKTXZYRktISkZZSEtmc2lFaXJpdUNrQnhsY2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzExMDE2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTgKbC9FSVFIOE5TYXRiSW5aMU0yLzRTaUJWbkowYmtXczlkWFZrb3FlMG82dXd1ZmZZdDhIb0lzaUd3WGlaQzBXdmxyVjI5TFVwaXhVRFFMQVFETmkyQXc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/796780729"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcGtSMndXdmx1UGNUdGpBeVJIYnNYMnMzZXlrbUJaWFQyRmlvSFFDWEkwRVBFb2Y3U040NnZ5Q0Q5OFpleUtSbFhocm1jYktBekdxK0tUejJQbGV5R1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzA4MzkzCWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTcKT2tyQ0xybUNNdzdSVGF2RXpmY0xJU2hjbjgyRVdXcEdVWGk0R2RvcGpvYWcydmF1MVc4dW4zeVlLRHEzdnJBczJtOVlsV1FyWGtVSU5zRDMrMlA3QVE9PQo=",
-      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/796609830"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWNRbURoT1dRcHQwWkRDd0Q0ZFAxUkU1K0F5WElVaUNoWlI1NWNHVVFTcWRzQU53V2RieWxhRUovYWR5Zk9pbUNDMVpKTXZYRktISkZZSEtmc2lFaXJpdUNrQnhsY2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzExMDE2CWZpbGU6R2VzdGnDs24gQVBBIC0gVGllbXBvcyBkZSByZXNwdWVzdGFfMC4zLjk4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuOTgKbC9FSVFIOE5TYXRiSW5aMU0yLzRTaUJWbkowYmtXczlkWFZrb3FlMG82dXd1ZmZZdDhIb0lzaUd3WGlaQzBXdmxyVjI5TFVwaXhVRFFMQVFETmkyQXc9PQo=",
+      "url": "https://api.github.com/repos/SPxMM3R1/gestion-apa-actualizaciones/releases/assets/796780729"
     }
   }
 }
